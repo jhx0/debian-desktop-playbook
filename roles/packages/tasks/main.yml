@@ -1,0 +1,5 @@
+---
+- name: Install additional packages
+  apt: 
+   name={{ base_packages }} 
+   state=present

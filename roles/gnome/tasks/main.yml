@@ -1,0 +1,5 @@
+---
+- name: Install the GNOME desktop
+  apt: 
+    name={{ gnome_packages }}
+    state=present

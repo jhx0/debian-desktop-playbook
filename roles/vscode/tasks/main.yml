@@ -1,0 +1,5 @@
+---
+- name: Install VSCode
+  apt:
+    deb: https://go.microsoft.com/fwlink/?LinkID=760868
+

@@ -1,0 +1,13 @@
+base_packages:
+   - htop
+   - mutt
+   - bsd-mailx
+   - sudo
+   - dnsutils
+   - needrestart
+   - apt-listchanges
+   - vnstat
+   - haveged
+   - git
+   - nftables
+   - dnsmasq

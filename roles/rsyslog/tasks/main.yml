@@ -1,0 +1,13 @@
+---
+- name: Configuring rsyslog
+  copy:
+    src: rsyslog.conf
+    dest: /etc
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Restarting rsyslog
+  systemd:
+    name: rsyslog
+    state: restarted

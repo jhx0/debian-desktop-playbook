@@ -1,0 +1,29 @@
+---
+- hosts: all
+  become: true
+  become_user: root
+  become_method: su
+
+  roles:
+     #- update
+     #- postfix
+     #- rsyslog
+     #- ssh
+     #- user
+     #- sudo
+     #- gnome
+     #- packages
+     #- groups
+     #- ntp
+     #- sysctl
+     #- nftables
+     #- grub
+     #- fstrim
+     #- nvidia
+     #- intel
+     #- tty
+     #- virtualbox
+     #- vscode
+     #- dnsmasq
+     #- fontconfig
+     #- reboot

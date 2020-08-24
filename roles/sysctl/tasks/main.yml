@@ -1,0 +1,8 @@
+---
+- name: Add custom sysctl config
+  copy: 
+    src: custom.conf 
+    dest: /etc/sysctl.d/
+    owner: root
+    group: root
+    mode: '0644'

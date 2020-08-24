@@ -1,0 +1,28 @@
+---
+- name: Setup debconf
+  debconf:
+     name: postfix
+     question: postfix/main_mailer_type
+     value: Local only
+     vtype: select
+
+- name: Install packages
+  apt: name=postfix state=present
+
+- name: Change Postfix to Maildir format
+  lineinfile:
+     path: /etc/postfix/main.cf
+     line: "home_mailbox = Maildir/"
+
+- name: Setup Postfix aliases
+  lineinfile:
+     path: /etc/aliases
+     line: "root: {{ user_name }}"
+
+- name: Restart Postfix
+  systemd:
+     state: restarted
+     name: postfix
+
+- name: Send welcome mail
+  shell: echo "System is now ready" | mail -s Ready "{{ user_name }}"

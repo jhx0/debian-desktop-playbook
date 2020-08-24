@@ -1,0 +1,16 @@
+---
+ansible_become_flags: "-"
+
+ssh_port: 22
+
+user_name: user
+user_uid: 1500
+user_shell: /bin/bash
+# Generate the password with: python3 -c 'import crypt; print(crypt.crypt("password", "$6$saltsalt$"))'
+user_password: xxx
+
+ntp_servers: 0.de.pool.ntp.org 1.de.pool.ntp.org 2.de.pool.ntp.org
+ntp_fallback_servers: 0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org
+
+dns_server_a: 8.8.8.8
+dns_server_b: 1.1.1.1

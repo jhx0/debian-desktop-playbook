@@ -1,0 +1,6 @@
+---
+- name: Install Nvidia driver packages
+  apt:
+   name={{ nvidia_packages }}
+   state=present
+

@@ -1,0 +1,8 @@
+---
+- name: Add user "{{ user_name }}"
+  user:
+     name: "{{ user_name }}"
+     comment: Admin
+     uid: "{{ user_uid }}"
+     shell: "{{ user_shell }}"
+     password: "{{ user_password }}"

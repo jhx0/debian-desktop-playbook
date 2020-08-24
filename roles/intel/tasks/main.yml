@@ -1,0 +1,6 @@
+---
+- name: Install Intel driver packages
+  apt:
+   name={{ intel_packages }}
+   state=present
+

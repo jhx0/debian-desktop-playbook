@@ -1,0 +1,8 @@
+---
+- name: Setup dnsmasq
+  template: src=resolv.dnsmasq.j2 dest=/etc/resolv.dnsmasq
+
+- name: Restarting dnsmasq
+  systemd:
+    name: dnsmasq
+    state: restarted

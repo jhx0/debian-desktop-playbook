@@ -1,0 +1,4 @@
+nvidia_packages:
+   - nvidia-driver
+   - nvidia-smi
+   - nvidia-settings

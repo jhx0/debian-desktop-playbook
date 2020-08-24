@@ -1,0 +1,14 @@
+---
+- name: Deactivating TTY disallocate (1/2)
+  file:
+    path: /etc/systemd/system/getty@tty1.service.d
+    state: directory
+    mode: '0755'
+
+- name: Deactivating TTY disallocate (2/2)
+  copy:
+    src: noclear.conf
+    dest: /etc/systemd/system/getty@tty1.service.d
+    owner: root
+    group: root
+    mode: '0644'
