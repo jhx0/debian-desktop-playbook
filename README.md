@@ -1,2 +1,3 @@
 # debian-desktop-playbook
-Playbook to setup a Debian desktop with GNOME
+Edit the given variables and hosts file (Example provided) and run the Playbook.  
+(Make sure you select the roles you need!)
