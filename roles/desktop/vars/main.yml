@@ -176,3 +176,4 @@ desktop_packages:
   - terminator
   - amd64-microcode
   - intel-microcode
+  - liferea
