@@ -1,0 +1,5 @@
+---
+- name: Installing gaming related applications
+  apt:
+    name: "{{ gaming_packages }}"
+    state: present

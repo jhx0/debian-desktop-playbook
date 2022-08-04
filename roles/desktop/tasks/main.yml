@@ -1,0 +1,5 @@
+---
+- name: Installing Desktop related applications
+  apt:
+    name: "{{ desktop_packages }}"
+    state: present

@@ -1,0 +1,30 @@
+---
+- name: Installing git
+  apt:
+    name: git
+    state: present
+
+- name: Installing stow
+  apt:
+    name: stow
+    state: present
+
+- name: Cloning dotfiles
+  git:
+    repo: https://github.com/jhx0/Dotfiles.git
+    dest: /home/{{ user_name }}/Dotfiles
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Delete default configs
+  shell: cd /home/{{ user_name }}; rm -f .bashrc .bash_logout .profile
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Deploying dotfiles for user {{ user_name }}
+  shell: cd /home/{{ user_name }}/Dotfiles && stow . 
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su

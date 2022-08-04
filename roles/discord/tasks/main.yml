@@ -1,0 +1,12 @@
+---
+- name: Dowloading Discord
+  shell: wget 'https://discord.com/api/download?platform=linux&format=deb' -O /tmp/discord.deb &>/dev/null
+
+- name: Installing Discord
+  apt: 
+    deb: /tmp/discord.deb
+
+- name: Deleting Discord .deb package
+  ansible.builtin.file:
+    path: /tmp/discord.deb
+    state: absent

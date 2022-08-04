@@ -1,0 +1,10 @@
+---
+- name: Installing VIM
+  apt:
+    name: vim
+    state: present
+
+- name: Update alternatives (VIM)
+  alternatives:
+    name: editor
+    path: /usr/bin/vim.basic

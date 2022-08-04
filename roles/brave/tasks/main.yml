@@ -1,0 +1,25 @@
+---
+- name: Installing Curl
+  apt:
+    name: curl
+    state: present
+
+- name: Installing Brave Key
+  shell: curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+- name: Add Brave repository
+  copy:
+    src: brave.list
+    dest: /etc/apt/sources.list.d
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Update package cache
+  apt:
+    update_cache: yes
+
+- name: Installing Brave
+  apt:
+    name: "{{ brave_package }}"
+    state: present

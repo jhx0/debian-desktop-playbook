@@ -1,0 +1,3 @@
+salt_packages:
+  - salt-master
+  - salt-minion

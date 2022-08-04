@@ -1,0 +1,12 @@
+---
+- name: Add i386 architecture support
+  shell: dpkg --add-architecture i386
+
+- name: Updating package cache
+  apt:
+    update_cache: yes
+
+- name: Installing ZSNES
+  apt:
+    name: "{{ zsnes_package }}"
+    state: present

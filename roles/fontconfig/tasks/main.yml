@@ -1,0 +1,12 @@
+---
+- name: Setup hinting (Slight)
+  file:
+    src: "/usr/share/fontconfig/conf.avail/10-hinting-slight.conf"
+    dest: "/etc/fonts/conf.d/10-hinting-slight.conf"
+    state: link
+
+- name: Setup sub pixel (RGB)
+  file:
+    src: "/usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf"
+    dest: "/etc/fonts/conf.d/10-sub-pixel-rgb.conf"
+    state: link

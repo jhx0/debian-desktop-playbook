@@ -1,0 +1,60 @@
+---
+- hosts: all
+  become: true
+  become_user: root
+  become_method: su
+
+  roles:
+    ##
+    # Basic things
+    ##
+    - apt
+    - update
+    - vim_alternative
+    - dotfiles
+    - postfix
+    - rsyslog
+    - ssh
+    - sudo
+    - pam
+    - groups
+    - ntp
+    - sysctl
+    - grub
+    - fstrim
+    - fail2ban
+    
+    ##
+    # Desktop related
+    ##
+    - desktop
+    - fontconfig
+
+    ##
+    # Gaming
+    ##
+    - gaming
+
+    ##
+    # i386 stuff
+    ##
+    - zsnes
+
+    ##
+    # Additional apps
+    ##
+    - virtualbox
+    - vscode
+    - rpi_imager
+    - ansible
+    - vagrant
+    - salt
+    - docker
+    - virt
+    - discord
+    - brave
+
+    ##
+    # Reboot system
+    ##
+    - reboot

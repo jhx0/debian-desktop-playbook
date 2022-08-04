@@ -1,0 +1,16 @@
+---
+- name: Add custom sources.list
+  copy: 
+    src: sources.list
+    dest: /etc/apt/
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Copying over update skript
+  copy:
+    src: update
+    dest: /etc/cron.daily/
+    owner: root
+    group: root
+    mode: '0755'

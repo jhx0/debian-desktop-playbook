@@ -1,0 +1,10 @@
+---
+- name: Add custom sshd config
+  template: 
+    src: sshd_config.j2 
+    dest: /etc/ssh/sshd_config
+
+- name: Restart SSHD
+  systemd:
+    name: sshd
+    state: restarted

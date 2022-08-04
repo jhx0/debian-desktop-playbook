@@ -1,0 +1,4 @@
+---
+- name: Installing Raspberry Pi Imager
+  apt:
+    deb: https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb

@@ -1,0 +1,20 @@
+---
+- name: Installing Salt Key
+  shell: curl -fsSL -o /usr/share/keyrings/salt-archive-keyring.gpg https://repo.saltproject.io/py3/debian/11/amd64/latest/salt-archive-keyring.gpg
+
+- name: Add Salt repository
+  copy:
+    src: salt.list
+    dest: /etc/apt/sources.list.d
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Update package cache
+  apt:
+    update_cache: yes
+
+- name: Installing Salt packages
+  apt:
+    name: "{{ salt_packages }}"
+    state: present

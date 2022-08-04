@@ -1,0 +1,6 @@
+---
+- name: Adding "{{ user_name }}" to multiple groups
+  user:
+    name: "{{ user_name }}"
+    groups: kvm,adm,systemd-journal
+    append: yes

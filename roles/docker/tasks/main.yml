@@ -1,0 +1,41 @@
+---
+- name: Installing CA-Certificates
+  apt:
+    name: ca-certificates
+    state: present
+
+- name: Installing Curl
+  apt:
+    name: curl
+    state: present
+
+- name: Installing GNUPG
+  apt:
+    name: gnupg
+    state: present
+
+- name: Installing LSB Release
+  apt:
+    name: lsb-release
+    state: present
+
+- name: Importing Docker key
+  shell: mkdir -p /etc/apt/keyrings; curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+- name: Setting up Docker repository
+  shell: echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+- name: Update package cache
+  apt:
+    update_cache: yes
+
+- name: Installing Docker
+  apt:
+    name: "{{ docker_packages }}"
+    state: present
+
+- name: Add user "{{ user_name }}" to group docker
+  user:
+    name: "{{ user_name }}"
+    groups: docker
+    append: yes
