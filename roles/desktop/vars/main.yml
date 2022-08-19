@@ -7,44 +7,29 @@ desktop_packages:
   - xserver-xorg-input-synaptics
   - x11-utils
   - mesa-utils
-  - xfce4-terminal
-  - xfce4
-  - xfce4-power-manager
-  - xfce4-pulseaudio-plugin
-  - xfce4-whiskermenu-plugin
-  - xfce4-screenshooter
-  - ristretto
-  - mousepad
-  - lightdm
-  - lightdm-gtk-greeter
-  - lightdm-gtk-greeter-settings
-  - network-manager
-  - network-manager-gnome
-  - xdg-user-dirs
+  - gnome-core
+  - gnome-calendar
+  - gnome-calculator
+  - gnome-clocks
+  - gnome-color-manager
+  - gnome-remote-desktop
+  - gnome-sound-recorder
+  - gnome-todo
+  - gnome-tweaks
+  - gnome-video-effects
+  - gnome-screenshot
+  - gnome-weather
+  - seahorse
+  - sound-icons 
+  - file-roller
   - xdg-user-dirs-gtk
   - xdg-utils
-  - thunar-archive-plugin
-  - xarchiver
-  - ffmpegthumbnailer
-  - pulsemixer
-  - pulseaudio
-  - pavucontrol
-  - fonts-noto
   - fonts-dejavu
-  - fonts-freefont-ttf
-  - fonts-liberation
-  - ttf-bitstream-vera
-  - fonts-ubuntu
-  - fonts-hack
-  - gnome-keyring
-  - gvfs-backends
   - git
   - apt-transport-https
-  - gnupg2
   - vnstat
   - uptimed
   - needrestart
-  - geany
   - htop
   - vim
   - dmidecode
@@ -53,26 +38,20 @@ desktop_packages:
   - linux-headers-amd64
   - dnsutils
   - at
-  - flameshot
   - lm-sensors
   - psmisc
   - lsof
   - strace
   - netcat-traditional
   - bsd-mailx
-  - acl
-  - quota
   - tmux
   - mlocate
   - bash-completion
   - ntfs-3g
   - p7zip-full
-  - filezilla
   - thunderbird
   - vlc
   - openvpn
-  - tor
-  - torsocks
   - smbclient
   - zim
   - keepassxc
@@ -87,38 +66,23 @@ desktop_packages:
   - ethtool
   - wakeonlan
   - sshpass
-  - exa
-  - mtr
   - mutt
   - nmap
   - nethogs
   - nfs-common
   - wget
   - usbutils
-  - hexchat
   - curl
   - rsync
   - firefox-esr
-  - qbittorrent
   - unrar
   - unzip
-  - remmina
   - dosfstools
   - cifs-utils
   - smartmontools
   - ncdu
   - freerdp2-x11
-  - bridge-utils
-  - neofetch
-  - clamav
-  - bat
-  - hping3
-  - iperf3
-  - speedtest-cli
-  - glances
   - alsa-utils
-  - synaptic
-  - simplescreenrecorder
   - zsh
   - zsh-syntax-highlighting
   - fortune-mod
@@ -129,26 +93,9 @@ desktop_packages:
   - zathura
   - zathura-pdf-poppler
   - abs-guide
-  - colordiff
-  - colorize
-  - ccd2iso
-  - iotop
   - ipcalc
-  - arping
   - ncftp
-  - sshuttle
-  - cowsay
-  - cmatrix
-  - lolcat
-  - figlet
-  - fzf
-  - ripgrep
-  - command-not-found
-  - ghex
-  - xserver-xephyr
   - newsboat
-  - masscan
-  - x11vnc
   - default-jre
   - default-jdk
   - acct
@@ -162,18 +109,13 @@ desktop_packages:
   - debian-handbook
   - debian-faq
   - build-essential
-  - cloc
   - python3
   - python3-pip
   - python3-bs4
   - python3-colorama
   - wireguard
   - libreoffice
-  - libreoffice-gtk3
+  - libreoffice-gnome
   - wireshark-qt
-  - mupdf
-  - atril
-  - terminator
   - amd64-microcode
   - intel-microcode
-  - liferea

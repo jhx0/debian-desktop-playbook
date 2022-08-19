@@ -36,11 +36,6 @@
     - gaming
 
     ##
-    # i386 stuff
-    ##
-    - zsnes
-
-    ##
     # Additional apps
     ##
     - virtualbox
@@ -50,9 +45,6 @@
     - vagrant
     - salt
     - docker
-    - virt
-    - discord
-    - brave
 
     ##
     # Reboot system

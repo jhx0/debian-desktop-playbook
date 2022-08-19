@@ -1,7 +1,0 @@
-virt_packages:
-  - bridge-utils
-  - virt-manager
-  - qemu-system-x86
-  - libvirt-daemon-system
-  - qemu-utils
-  - ovmf
