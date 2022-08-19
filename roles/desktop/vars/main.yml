@@ -7,6 +7,7 @@ desktop_packages:
   - xserver-xorg-input-synaptics
   - x11-utils
   - mesa-utils
+  - gnome-terminal
   - gnome-core
   - gnome-calendar
   - gnome-calculator
@@ -117,5 +118,6 @@ desktop_packages:
   - libreoffice
   - libreoffice-gnome
   - wireshark-qt
+  - aptitude
   - amd64-microcode
   - intel-microcode
