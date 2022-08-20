@@ -20,12 +20,14 @@ desktop_packages:
   - gnome-video-effects
   - gnome-screenshot
   - gnome-weather
+  - dconf-editor
   - seahorse
   - sound-icons 
   - file-roller
   - xdg-user-dirs-gtk
   - xdg-utils
   - fonts-dejavu
+  - noto-fonts-cjk
   - git
   - apt-transport-https
   - vnstat
