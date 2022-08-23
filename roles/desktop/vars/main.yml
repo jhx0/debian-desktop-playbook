@@ -61,6 +61,9 @@ desktop_packages:
   - ffmpeg
   - gimp
   - apache2
+  - libapache2-mod-php
+  - php
+  - php-curl
   - samba
   - vsftpd
   - nfs-kernel-server
@@ -121,5 +124,7 @@ desktop_packages:
   - libreoffice-gnome
   - wireshark-qt
   - aptitude
+  - chromium
+  - cmus
   - amd64-microcode
   - intel-microcode
