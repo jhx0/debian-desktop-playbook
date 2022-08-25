@@ -1,5 +1,5 @@
 gaming_packages:
-  - mupen64plus-qt
+  - mupen64plus-ui-console
   - mednafen
   - mednaffe
   - fceux
