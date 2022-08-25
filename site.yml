@@ -27,7 +27,10 @@
     ##
     # Desktop related
     ##
-    - desktop
+    - xorg
+    - xfce
+    - gnome
+    - software
     - fontconfig
 
     ##

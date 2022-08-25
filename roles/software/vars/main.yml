@@ -1,33 +1,9 @@
-desktop_packages:
-  - xorg
-  - xserver-xorg-video-vesa
-  - xserver-xorg-video-amdgpu
-  - xserver-xorg-video-intel
-  - xserver-xorg-input-libinput
-  - xserver-xorg-input-synaptics
-  - x11-utils
-  - mesa-utils
-  - gnome-terminal
-  - gnome-core
-  - gnome-calendar
-  - gnome-calculator
-  - gnome-clocks
-  - gnome-color-manager
-  - gnome-remote-desktop
-  - gnome-sound-recorder
-  - gnome-todo
-  - gnome-tweaks
-  - gnome-video-effects
-  - gnome-screenshot
-  - gnome-weather
-  - dconf-editor
-  - seahorse
-  - sound-icons 
-  - file-roller
+software_packages: 
   - xdg-user-dirs-gtk
   - xdg-utils
   - fonts-dejavu
   - noto-fonts-cjk
+  - bc
   - git
   - apt-transport-https
   - vnstat
@@ -35,6 +11,9 @@ desktop_packages:
   - needrestart
   - htop
   - vim
+  - exa
+  - cowsay
+  - figlet
   - dmidecode
   - tcpdump
   - whois
@@ -53,11 +32,10 @@ desktop_packages:
   - ntfs-3g
   - p7zip-full
   - thunderbird
-  - vlc
+  - mpv
   - openvpn
   - smbclient
   - zim
-  - keepassxc
   - ffmpeg
   - gimp
   - apache2
@@ -121,10 +99,11 @@ desktop_packages:
   - python3-colorama
   - wireguard
   - libreoffice
-  - libreoffice-gnome
-  - wireshark-qt
+  - libreoffice-gtk3
   - aptitude
   - chromium
   - cmus
+  - cmatrix
+  - lynx
   - amd64-microcode
   - intel-microcode

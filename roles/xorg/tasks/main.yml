@@ -1,0 +1,5 @@
+---
+- name: Installing Xorg
+  apt:
+    name: "{{ xorg_packages }}"
+    state: present

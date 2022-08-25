@@ -1,0 +1,14 @@
+xfce_packages:
+  - xfce4
+  - xfce4-terminal
+  - xfce4-power-manager
+  - thunar-archive-plugin
+  - thunar-media-tags-plugin
+  - xfce4-whiskermenu-plugin
+  - pavucontrol
+  - pulseaudio
+  - lightdm
+  - lightdm-gtk-greeter
+  - lightdm-gtk-greeter-settings
+  - viewnior
+  - xarchiver
