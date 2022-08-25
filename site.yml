@@ -48,6 +48,7 @@
     - vagrant
     - salt
     - docker
+    - discord
 
     ##
     # Reboot system
