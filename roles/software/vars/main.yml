@@ -2,7 +2,9 @@ software_packages:
   - xdg-user-dirs-gtk
   - xdg-utils
   - fonts-dejavu
-  - noto-fonts-cjk
+  - fonts-noto-cjk
+  - fonts-noto-color-emoji
+  - suckless-tools
   - bc
   - git
   - apt-transport-https
@@ -105,5 +107,10 @@ software_packages:
   - cmus
   - cmatrix
   - lynx
+  - scrot
+  - fortunes-bofh-excuses
+  - inxi
+  - conky-std
+  - powertop
   - amd64-microcode
   - intel-microcode
