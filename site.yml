@@ -29,7 +29,6 @@
     ##
     - xorg
     - xfce
-    - gnome
     - software
     - fontconfig
 
@@ -43,7 +42,6 @@
     ##
     - virtualbox
     - vscode
-    - rpi_imager
     - ansible
     - vagrant
     - salt
