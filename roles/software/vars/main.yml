@@ -47,7 +47,6 @@ software_packages:
   - samba
   - vsftpd
   - nfs-kernel-server
-  - mcomix
   - hddtemp
   - ethtool
   - wakeonlan
