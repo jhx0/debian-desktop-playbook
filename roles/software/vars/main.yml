@@ -28,6 +28,7 @@ software_packages:
   - strace
   - netcat-traditional
   - bsd-mailx
+  - network-manager
   - tmux
   - mlocate
   - bash-completion
@@ -35,6 +36,7 @@ software_packages:
   - p7zip-full
   - thunderbird
   - mpv
+  - pwgen
   - openvpn
   - smbclient
   - zim
@@ -44,6 +46,8 @@ software_packages:
   - libapache2-mod-php
   - php
   - php-curl
+  - mariadb-server
+  - mariadb-client
   - samba
   - vsftpd
   - nfs-kernel-server
@@ -77,6 +81,7 @@ software_packages:
   - telnet
   - zathura
   - zathura-pdf-poppler
+  - zathura-cb
   - abs-guide
   - ipcalc
   - ncftp
