@@ -1,7 +1,4 @@
 gaming_packages:
   - mupen64plus-ui-console
   - mednafen
-  - mednaffe
-  - fceux
-  - visualboyadvance
   - dosbox
