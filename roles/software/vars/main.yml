@@ -103,6 +103,7 @@ software_packages:
   - python3-pip
   - python3-bs4
   - python3-colorama
+  - python3-venv
   - wireguard
   - libreoffice
   - libreoffice-gtk3
