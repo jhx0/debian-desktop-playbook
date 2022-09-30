@@ -2,6 +2,7 @@ software_packages:
   - xdg-user-dirs-gtk
   - xdg-utils
   - fonts-dejavu
+  - fonts-liberation
   - fonts-noto-cjk
   - fonts-noto-color-emoji
   - suckless-tools
@@ -108,10 +109,10 @@ software_packages:
   - libreoffice
   - libreoffice-gtk3
   - aptitude
-  - chromium
   - cmus
   - cmatrix
   - lynx
+  - w3m
   - scrot
   - fortunes-bofh-excuses
   - inxi
@@ -119,9 +120,12 @@ software_packages:
   - powertop
   - qemu-system-x86
   - libvirt-daemon-system
-  - ovmf qemu-utils
+  - ovmf
+  - qemu-utils
   - bridge-utils
   - virt-manager
   - iptables-persistent
+  - lxc
+  - debootstrap
   - amd64-microcode
   - intel-microcode
