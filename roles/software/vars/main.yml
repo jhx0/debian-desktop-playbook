@@ -128,5 +128,6 @@ software_packages:
   - lxc
   - debootstrap
   - mupdf
+  - galculator
   - amd64-microcode
   - intel-microcode
