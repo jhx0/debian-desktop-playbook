@@ -127,5 +127,6 @@ software_packages:
   - iptables-persistent
   - lxc
   - debootstrap
+  - mupdf
   - amd64-microcode
   - intel-microcode
