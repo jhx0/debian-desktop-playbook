@@ -129,8 +129,11 @@ software_packages:
   - debootstrap
   - mupdf
   - galculator
-  - php7.4-json
-	- php7.4-mbstring
-	- php7.4-xsl
+  - php-json
+	- php-mbstring
+	- php-xsl
+  - libxft-dev
+  - icedax
+  - sox
   - amd64-microcode
   - intel-microcode
