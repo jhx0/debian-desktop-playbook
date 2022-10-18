@@ -130,10 +130,11 @@ software_packages:
   - mupdf
   - galculator
   - php-json
-	- php-mbstring
-	- php-xsl
+  - php-mbstring
+  - php-xsl
   - libxft-dev
   - icedax
   - sox
+  - tigervnc-viewer
   - amd64-microcode
   - intel-microcode
