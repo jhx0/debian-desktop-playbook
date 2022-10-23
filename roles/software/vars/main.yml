@@ -135,6 +135,12 @@ software_packages:
   - libxft-dev
   - icedax
   - sox
+  - keepassxc
+  - vlc
+  - wireshark
+  - qbittorrent
+  - fish
+  - geany
   - tigervnc-viewer
   - amd64-microcode
   - intel-microcode
