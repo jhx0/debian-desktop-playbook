@@ -18,3 +18,19 @@
   apt:
     name: "{{ salt_packages }}"
     state: present
+
+- name: Copying Minion config over
+  copy:
+    src: master.conf
+    dest: /etc/salt/minion.d/master.conf
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Restarting Minion
+  systemd:
+    name: salt-minion
+    state: restarted
+
+- name: Accepting Minion
+  shell: salt-key -A -y
