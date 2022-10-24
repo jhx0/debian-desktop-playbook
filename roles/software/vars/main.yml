@@ -141,6 +141,7 @@ software_packages:
   - qbittorrent
   - fish
   - geany
+  - clamav
   - tigervnc-viewer
   - amd64-microcode
   - intel-microcode
