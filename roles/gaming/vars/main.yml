@@ -2,6 +2,7 @@ gaming_packages:
   - mupen64plus-ui-console
   - mednafen
   - dosbox
+  - aisleriot
   - wine
   - wine32
   - wine64
