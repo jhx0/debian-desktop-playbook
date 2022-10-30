@@ -143,5 +143,6 @@ software_packages:
   - geany
   - clamav
   - tigervnc-viewer
+  - wamerican
   - amd64-microcode
   - intel-microcode
