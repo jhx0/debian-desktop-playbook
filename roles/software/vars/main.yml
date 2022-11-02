@@ -146,5 +146,7 @@ software_packages:
   - wamerican
   - vobcopy
   - libdvd-pkg
+  - libssl-dev
+  - pdfcrack
   - amd64-microcode
   - intel-microcode
