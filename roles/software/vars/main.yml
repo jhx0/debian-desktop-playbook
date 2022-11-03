@@ -148,5 +148,7 @@ software_packages:
   - libdvd-pkg
   - libssl-dev
   - pdfcrack
+  - xdotool
+  - xclip
   - amd64-microcode
   - intel-microcode
