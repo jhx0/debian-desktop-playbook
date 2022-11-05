@@ -150,5 +150,9 @@ software_packages:
   - pdfcrack
   - xdotool
   - xclip
+  - texlive-latex-base
+  - texlive-latex-recommended
+  - texlive-latex-extra
+  - pandoc
   - amd64-microcode
   - intel-microcode
