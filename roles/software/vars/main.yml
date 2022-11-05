@@ -154,5 +154,6 @@ software_packages:
   - texlive-latex-recommended
   - texlive-latex-extra
   - pandoc
+  - mediainfo
   - amd64-microcode
   - intel-microcode
