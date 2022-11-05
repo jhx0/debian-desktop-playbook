@@ -155,5 +155,7 @@ software_packages:
   - texlive-latex-extra
   - pandoc
   - mediainfo
+  - zstd
+  - pass
   - amd64-microcode
   - intel-microcode
