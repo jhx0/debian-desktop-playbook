@@ -1,11 +1,4 @@
 ---
-- name: Setting up Debconf (Wireshark)
-  debconf:
-    name: wireshark-common
-    question: wireshark-common/install-setuid
-    value: 'true'
-    vtype: select
-
 - name: Installing additional software
   apt:
     name: "{{ software_packages }}"
@@ -14,7 +7,7 @@
 - name: Adding "{{ user_name }}"" to multiple groups
   user:
     name: "{{ user_name }}"
-    groups: libvirt,libvirt-qemu,wireshark
+    groups: libvirt,libvirt-qemu
     append: yes
 
 - name: Enable default network (Libvirt)
