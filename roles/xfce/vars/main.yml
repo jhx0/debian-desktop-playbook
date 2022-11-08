@@ -4,7 +4,6 @@ xfce_packages:
   - xfce4-power-manager
   - thunar-archive-plugin
   - thunar-media-tags-plugin
-  - xfce4-whiskermenu-plugin
   - xfce4-screenshooter
   - gvfs-backends
   - pavucontrol
