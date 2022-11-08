@@ -1,14 +1,5 @@
 ---
-- name: Installing additional software
+- name: Installing software
   apt:
     name: "{{ software_packages }}"
     state: present
-
-- name: Adding "{{ user_name }}"" to multiple groups
-  user:
-    name: "{{ user_name }}"
-    groups: libvirt,libvirt-qemu
-    append: yes
-
-- name: Enable default network (Libvirt)
-  shell: virsh net-autostart default

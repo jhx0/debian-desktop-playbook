@@ -6,7 +6,7 @@
 
   roles:
     ##
-    # Basic things
+    # Basic setup
     ##
     - apt
     - update
@@ -25,7 +25,7 @@
     - fail2ban
     
     ##
-    # Desktop related
+    # Desktop related packages
     ##
     - xorg
     - xfce
@@ -33,22 +33,30 @@
     - fontconfig
 
     ##
+    # Additional packages
+    ##
+    - additional_software
+
+    ##
+    # Virtualization packages
+    ##
+    - virt
+
+    ##
     # Gaming
     ##
     - gaming
 
     ##
-    # Additional apps
+    # External packages
     ##
-    - virtualbox
     - vscode
     - ansible
-    - vagrant
     - salt
     - docker
     - discord
 
     ##
-    # Reboot system
+    # Rebooting the system
     ##
     - reboot

@@ -1,0 +1,4 @@
+additional_software_packages: 
+  - network-manager
+  - libreoffice
+  - libreoffice-gtk3
