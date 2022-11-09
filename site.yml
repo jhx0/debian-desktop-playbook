@@ -23,6 +23,7 @@
     - grub
     - fstrim
     - fail2ban
+    - firewall
     
     ##
     # Desktop related packages

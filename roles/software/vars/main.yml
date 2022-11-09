@@ -112,7 +112,6 @@ software_packages:
   - inxi
   - conky-std
   - powertop
-  - iptables-persistent
   - lxc
   - debootstrap
   - mupdf
