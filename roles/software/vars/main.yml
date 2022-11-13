@@ -139,5 +139,9 @@ software_packages:
   - zstd
   - pass
   - fzf
+  - ripgrep
+  - sxiv
+  - ranger
+  - feh
   - amd64-microcode
   - intel-microcode
