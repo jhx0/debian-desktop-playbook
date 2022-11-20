@@ -144,5 +144,6 @@ software_packages:
   - ranger
   - feh
   - vrms
+  - neofetch
   - amd64-microcode
   - intel-microcode
