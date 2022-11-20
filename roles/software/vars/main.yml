@@ -143,5 +143,6 @@ software_packages:
   - sxiv
   - ranger
   - feh
+  - vrms
   - amd64-microcode
   - intel-microcode
