@@ -13,6 +13,7 @@ A Ansible Playbook to deploy/configure a Debian desktop system with Xfce and man
 ## Before running the Playbook:
 - Configure **group_vars/all** to your need.
 - In general: Select from **site.yml** what you need and comment out roles you don't want to run.
+- Take a look at the **dotfiles** role, since you most likely want to use your own dots!
 
 ## Usage:
 1. Clone/download this repository
