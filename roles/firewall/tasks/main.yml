@@ -1,3 +1,8 @@
+- name: Installing iptables
+  apt:
+    name: iptables
+    state: present
+
 - name: Copying firewall script
   copy:
     src: fw.sh
