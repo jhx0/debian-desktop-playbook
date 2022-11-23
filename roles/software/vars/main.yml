@@ -145,5 +145,6 @@ software_packages:
   - feh
   - vrms
   - neofetch
+  - grabc
   - amd64-microcode
   - intel-microcode
