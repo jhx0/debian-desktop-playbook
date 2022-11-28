@@ -146,5 +146,6 @@ software_packages:
   - vrms
   - neofetch
   - grabc
+  - sshfs
   - amd64-microcode
   - intel-microcode
