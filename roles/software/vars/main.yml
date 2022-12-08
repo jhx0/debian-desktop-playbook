@@ -147,5 +147,6 @@ software_packages:
   - neofetch
   - grabc
   - sshfs
+  - stress
   - amd64-microcode
   - intel-microcode
