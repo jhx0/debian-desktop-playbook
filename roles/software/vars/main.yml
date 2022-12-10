@@ -148,5 +148,10 @@ software_packages:
   - grabc
   - sshfs
   - stress
+  - meson
+  - ninja-build
+  - libpulse-dev
+  - libcxxopts-dev
+  - cmake
   - amd64-microcode
   - intel-microcode
