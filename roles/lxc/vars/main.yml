@@ -1,0 +1,3 @@
+lxc_packages:
+  - lxc
+  - debootstrap

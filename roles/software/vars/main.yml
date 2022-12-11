@@ -112,8 +112,6 @@ software_packages:
   - inxi
   - conky-std
   - powertop
-  - lxc
-  - debootstrap
   - mupdf
   - php-json
   - php-mbstring
