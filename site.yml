@@ -42,16 +42,22 @@
     # Virtualization packages
     ##
     - virt
+    
+    ##
+    # LXC packages
+    ##
+    - lxc
 
     ##
     # Gaming
     ##
-    - gaming
+    - retro_gaming
+    - wine
+    - steam
 
     ##
     # External packages
     ##
-    - vscode
     - ansible
     - docker
 
