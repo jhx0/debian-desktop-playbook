@@ -1,0 +1,19 @@
+- name: Add VSCodium key
+  shell: wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+
+- name: Adding VSCodium repository
+  copy:
+    src: vscodium.list
+    dest: /etc/apt/sources.list.d
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Update package cache
+  apt:
+    update_cache: yes
+
+- name: Installing VSCodium
+  apt:
+    name: "{{ vscodium_package }}"
+    state: present

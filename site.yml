@@ -60,6 +60,7 @@
     ##
     - ansible
     - docker
+    - vscodium
 
     ##
     # Rebooting the system
