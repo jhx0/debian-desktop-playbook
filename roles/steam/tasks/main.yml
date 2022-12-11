@@ -13,7 +13,7 @@
     value: I AGREE
     vtype: select
 
-- name: Installing gaming related applications
+- name: Installing Steam
   apt:
-    name: "{{ gaming_packages }}"
+    name: "{{ steam_packages }}"
     state: present

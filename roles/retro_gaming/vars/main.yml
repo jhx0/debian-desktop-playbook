@@ -1,0 +1,5 @@
+retro_gaming_packages:
+  - mupen64plus-ui-console
+  - mednafen
+  - dosbox
+  - zsnes:i386

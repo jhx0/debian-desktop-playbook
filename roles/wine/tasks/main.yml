@@ -1,0 +1,12 @@
+---
+- name: Adding i386 architecture
+  shell: dpkg --add-architecture i386
+
+- name: Updating package cache
+  apt:
+    update_cache: yes
+
+- name: Installing Wine
+  apt:
+    name: "{{ wine_packages }}"
+    state: present
