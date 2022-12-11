@@ -61,6 +61,7 @@
     - ansible
     - docker
     - vscodium
+    - virtualbox
 
     ##
     # Rebooting the system
