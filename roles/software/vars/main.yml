@@ -143,7 +143,6 @@ software_packages:
   - feh
   - vrms
   - neofetch
-  - grabc
   - sshfs
   - stress
   - meson
