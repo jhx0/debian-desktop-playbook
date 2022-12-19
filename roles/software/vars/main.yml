@@ -152,5 +152,6 @@ software_packages:
   - cmake
   - python3-gi
   - libncurses-dev
+  - i3lock
   - amd64-microcode
   - intel-microcode
