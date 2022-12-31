@@ -154,5 +154,7 @@ software_packages:
   - libncurses-dev
   - i3lock
   - libarchive-tools
+  - pdfgrep
+  - ack
   - amd64-microcode
   - intel-microcode
