@@ -11,6 +11,5 @@ xfce_packages:
   - lightdm
   - lightdm-gtk-greeter
   - lightdm-gtk-greeter-settings
-  - viewnior
   - xarchiver
   - xscreensaver
