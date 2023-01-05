@@ -1,5 +1,7 @@
 Defaults    insults
+Defaults    passprompt="pw >> "
 
 {{ user_name }} ALL=(ALL:ALL) ALL
 
 {{ user_name }} ALL=(ALL:ALL) NOPASSWD: /bin/apt update
+{{ user_name }} ALL=(ALL:ALL) NOPASSWD: /bin/mount
