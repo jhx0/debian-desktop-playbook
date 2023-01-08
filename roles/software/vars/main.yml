@@ -156,5 +156,7 @@ software_packages:
   - libarchive-tools
   - pdfgrep
   - ack
+  - xfishtank
+  - xnest
   - amd64-microcode
   - intel-microcode
