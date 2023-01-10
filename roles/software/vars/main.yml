@@ -158,5 +158,6 @@ software_packages:
   - ack
   - xfishtank
   - xnest
+  - libpci-dev
   - amd64-microcode
   - intel-microcode
