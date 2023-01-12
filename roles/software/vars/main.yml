@@ -119,6 +119,7 @@ software_packages:
   - libxft-dev
   - icedax
   - sox
+  - libsox-fmt-mp3
   - fish
   - clamav
   - tigervnc-viewer
@@ -159,5 +160,7 @@ software_packages:
   - xfishtank
   - xnest
   - libpci-dev
+  - vlc
+  - wodim
   - amd64-microcode
   - intel-microcode
