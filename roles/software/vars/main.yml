@@ -165,5 +165,6 @@ software_packages:
   - flameshot
   - keepassxc
   - oneko
+  - libxi-dev
   - amd64-microcode
   - intel-microcode
