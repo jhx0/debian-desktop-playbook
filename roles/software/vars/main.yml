@@ -162,5 +162,7 @@ software_packages:
   - libpci-dev
   - vlc
   - wodim
+  - flameshot
+  - keepassxc
   - amd64-microcode
   - intel-microcode
