@@ -164,5 +164,6 @@ software_packages:
   - wodim
   - flameshot
   - keepassxc
+  - oneko
   - amd64-microcode
   - intel-microcode
