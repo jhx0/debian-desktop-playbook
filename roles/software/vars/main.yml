@@ -166,5 +166,6 @@ software_packages:
   - keepassxc
   - oneko
   - libxi-dev
+  - screenkey
   - amd64-microcode
   - intel-microcode
