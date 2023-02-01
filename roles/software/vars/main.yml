@@ -167,5 +167,7 @@ software_packages:
   - oneko
   - libxi-dev
   - screenkey
+  - gir1.2-keybinder-3.0
+  - python3-setproctitle
   - amd64-microcode
   - intel-microcode
