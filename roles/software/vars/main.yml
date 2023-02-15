@@ -169,5 +169,6 @@ software_packages:
   - screenkey
   - gir1.2-keybinder-3.0
   - python3-setproctitle
+  - bison
   - amd64-microcode
   - intel-microcode
