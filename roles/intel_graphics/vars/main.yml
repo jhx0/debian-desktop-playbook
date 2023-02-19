@@ -1,0 +1,2 @@
+intel_graphics_packages:
+  - xserver-xorg-video-intel

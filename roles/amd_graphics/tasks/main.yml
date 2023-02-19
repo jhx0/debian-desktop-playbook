@@ -1,0 +1,5 @@
+---
+- name: Installing AMD graphics drivers
+  apt:
+    name: "{{ amd_graphics_packages }}"
+    state: present

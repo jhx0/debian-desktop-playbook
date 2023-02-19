@@ -1,0 +1,2 @@
+intel_cpu_packages:
+  - intel-microcode

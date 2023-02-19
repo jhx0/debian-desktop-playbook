@@ -1,0 +1,5 @@
+---
+- name: Installing AMD microcode
+  apt:
+    name: "{{ amd_cpu_packages }}"
+    state: present

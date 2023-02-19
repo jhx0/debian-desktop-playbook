@@ -1,0 +1,5 @@
+---
+- name: Installing Intel microcode
+  apt:
+    name: "{{ intel_cpu_packages }}"
+    state: present
