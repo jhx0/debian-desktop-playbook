@@ -24,14 +24,27 @@
     - fstrim
     - fail2ban
     - firewall
+
+    ##
+    # Microcode
+    ##
+    - intel_cpu
+    - amd_cpu
     
     ##
     # Desktop related packages
     ##
     - xorg
+    - intel_graphics
+    - amd_graphics
     - xfce
     - software
     - fontconfig
+
+    ##
+    # laptop specific packages
+    ##
+    - laptop
 
     ##
     # Additional packages
