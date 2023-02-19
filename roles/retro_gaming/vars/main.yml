@@ -3,4 +3,3 @@ retro_gaming_packages:
   - mednafen
   - dosbox
   - zsnes:i386
-  - vice
