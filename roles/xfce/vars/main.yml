@@ -8,8 +8,5 @@ xfce_packages:
   - gvfs-backends
   - pavucontrol
   - pulseaudio
-  - lightdm
-  - lightdm-gtk-greeter
-  - lightdm-gtk-greeter-settings
   - xarchiver
   - xscreensaver
