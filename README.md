@@ -4,7 +4,7 @@ A Ansible Playbook to deploy/configure a Debian desktop system with Xfce and man
 ## Features:
 - Xfce Desktop environment
 - Many additional packages
-- Installs external applications: Ansible, Docker, VSCode
+- Installs external applications: Ansible, Docker, VSCodium, VirtualBox
 - Targets Intel/AMD systems
 - gaming role with Steam, Wine and more
 - Installs Libvirt/Qemu/Virt-Manager
