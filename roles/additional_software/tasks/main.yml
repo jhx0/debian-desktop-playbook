@@ -1,5 +1,0 @@
----
-- name: Installing additional software
-  apt:
-    name: "{{ additional_software_packages }}"
-    state: present

@@ -1,0 +1,8 @@
+Defaults    insults
+Defaults    passprompt="[Password] >> "
+
+{{ user_name }} ALL=(ALL:ALL) ALL
+
+{{ user_name }} ALL=(ALL:ALL) NOPASSWD: /bin/apt update
+{{ user_name }} ALL=(ALL:ALL) NOPASSWD: /bin/apt upgrade
+{{ user_name }} ALL=(ALL:ALL) NOPASSWD: /bin/mount

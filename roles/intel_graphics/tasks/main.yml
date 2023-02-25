@@ -1,5 +1,0 @@
----
-- name: Installing Intel graphics drivers
-  apt:
-    name: "{{ intel_graphics_packages }}"
-    state: present

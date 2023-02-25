@@ -1,0 +1,17 @@
+---
+- name: Update system | Cache (1/4)
+  apt:
+    update_cache: yes
+
+- name: Update system | Packages (2/4)
+  apt:
+    name: "*"
+    state: latest
+
+- name: Update system | Autoremove (3/4)
+  apt:
+    autoremove: yes
+
+- name: Update system | Autoclean (4/4)
+  apt:
+    autoclean: yes

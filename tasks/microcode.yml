@@ -1,0 +1,12 @@
+---
+- name: Installing AMD microcode
+  apt:
+    name: amd64-microcode
+    state: present
+  when: microcode_amd
+
+- name: Installing Intel microcode
+  apt:
+    name: intel-microcode
+    state: present
+  when: microcode_intel

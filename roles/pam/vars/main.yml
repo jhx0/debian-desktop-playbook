@@ -1,2 +1,0 @@
-pam_packages:
-  - libpam-pwquality

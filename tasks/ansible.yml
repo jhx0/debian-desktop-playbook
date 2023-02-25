@@ -1,0 +1,22 @@
+---
+- name: Add Ansible key
+  apt_key:
+    keyserver: keyserver.ubuntu.com
+    id: "{{ ansible_key_id }}"
+
+- name: Add Ansible repository
+  template:
+    src: ansible/ansible.list.j2
+    dest: /etc/apt/sources.list.d/ansible.list
+    owner: root
+    group: root
+    mode: '0644'
+  notify: update apt cache
+
+- name: Update APT cache
+  meta: flush_handlers
+
+- name: Installing Ansible
+  apt:
+    name: "{{ ansible_package }}"
+    state: present

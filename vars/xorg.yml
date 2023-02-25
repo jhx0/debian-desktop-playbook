@@ -1,0 +1,9 @@
+---
+xorg_packages:
+  - xorg
+  - xterm
+  - xserver-xorg-video-vesa
+  - xserver-xorg-input-libinput
+  - x11-utils
+  - mesa-utils
+  - xdm

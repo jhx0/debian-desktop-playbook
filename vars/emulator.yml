@@ -1,0 +1,5 @@
+---
+emulator_packages:
+  - mupen64plus-ui-console
+  - mednafen
+  - dosbox

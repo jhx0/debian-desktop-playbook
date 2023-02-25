@@ -1,0 +1,8 @@
+deb {{ debian_main_mirror }} {{ debian_release }} main
+deb-src {{ debian_main_mirror }} {{ debian_release }} main
+
+deb {{ debian_security_mirror }} {{ debian_release }}-security main
+deb-src {{ debian_security_mirror }} {{ debian_release }}-security main
+
+deb {{ debian_updates_mirror }} {{ debian_release }}-updates main
+deb-src {{ debian_updates_mirror }} {{ debian_release }}-updates main

@@ -1,0 +1,12 @@
+---
+- name: Configuring rsyslog
+  copy:
+    src: files/rsyslog/rsyslog.conf
+    dest: /etc
+    owner: root
+    group: root
+    mode: '0644'
+  notify: restarting rsyslog
+
+- name: Restarting rsyslog
+  meta: flush_handlers

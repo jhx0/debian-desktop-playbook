@@ -1,0 +1,32 @@
+---
+- name: update apt cache
+  apt:
+    update_cache: yes
+
+- name: restart postfix
+  systemd:
+    name: postfix
+    state: restarted
+
+- name: restarting rsyslog
+  systemd:
+    name: rsyslog
+    state: restarted
+
+- name: restart sshd
+  systemd:
+    name: sshd
+    state: restarted
+
+- name: restart systemd-timesyncd
+  systemd:
+    name: systemd-timesyncd
+    state: restarted
+
+- name: update grub
+  shell: update-grub2
+
+- name: restarting fail2ban
+  systemd:
+    name: fail2ban
+    state: restarted

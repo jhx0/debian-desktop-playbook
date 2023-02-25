@@ -1,0 +1,19 @@
+---
+- name: Adding i386 architecture
+  shell: dpkg --add-architecture i386
+  notify: update apt cache
+
+- name: Updating APT cache
+  meta: flush_handlers
+
+- name: (Steam) Setup debconf
+  debconf:
+    name: steam
+    question: steam/question
+    value: I AGREE
+    vtype: select
+
+- name: Installing Steam
+  apt:
+    name: "{{ steam_packages }}"
+    state: present

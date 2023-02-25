@@ -1,0 +1,13 @@
+---
+- name: Add custom ntp config
+  template: 
+    src: ntp/timesyncd.conf.j2 
+    dest: /etc/systemd/timesyncd.conf
+    mode: 0644
+
+- name: Enable NTP sync
+  shell: timedatectl set-ntp true
+  notify: restart systemd-timesyncd
+
+- name: Restarting systemd-timesyncd
+  meta: flush_handlers

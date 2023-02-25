@@ -1,0 +1,5 @@
+---
+- name: Installing emulators
+  apt:
+    name: "{{ emulator_packages }}"
+    state: present

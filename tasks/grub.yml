@@ -1,0 +1,20 @@
+---
+- name: Add custom GRUB config
+  copy: 
+    src: files/grub/grub
+    dest: /etc/default/
+    owner: root
+    group: root
+    mode: '0644'
+  notify: update grub
+
+- name: Disable Debian GRUB theme
+  file:
+    path: /etc/grub.d/05_debian_theme
+    owner: root
+    group: root
+    mode: '0644'
+  notify: update grub
+
+- name: Update GRUB
+  meta: flush_handlers

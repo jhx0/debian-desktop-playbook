@@ -1,3 +1,0 @@
-amd_graphics_packages:
-  - xserver-xorg-video-amdgpu
-  - firmware-amd-graphics

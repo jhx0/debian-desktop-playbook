@@ -1,0 +1,11 @@
+---
+- name: Copy systcl config
+  copy:
+    src: files/sysctl/10-custom.conf
+    dest: /etc/sysctl.d/
+    owner: root
+    group: root
+    mode: 0644
+
+- name: Activate sysctl settings
+  shell: sysctl -p /etc/sysctl.d/10-custom.conf

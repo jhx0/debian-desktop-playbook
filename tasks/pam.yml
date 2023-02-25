@@ -1,0 +1,24 @@
+---
+- name: Configuring PAM (common-auth)
+  copy: 
+    src: files/pam/common-auth
+    dest: /etc/pam.d/
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Configuring PAM (login)
+  copy: 
+    src: files/pam/login
+    dest: /etc/pam.d/
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Configuring PAM (sshd)
+  copy: 
+    src: files/pam/sshd
+    dest: /etc/pam.d/
+    owner: root
+    group: root
+    mode: '0644'

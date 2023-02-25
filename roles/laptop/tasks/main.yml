@@ -1,5 +1,0 @@
----
-- name: Installing Laptop specific software
-  apt:
-    name: "{{ laptop_packages }}"
-    state: present

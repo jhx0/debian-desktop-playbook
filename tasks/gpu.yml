@@ -1,0 +1,15 @@
+---
+- name: Installing AMD graphics drivers
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - xserver-xorg-video-amdgpu
+    - firmware-amd-graphics
+  when: nonfree and gpu_amd and gpu_firmware_amd
+
+- name: Installing Intel graphics drivers
+  apt:
+    name: xserver-xorg-video-intel
+    state: present
+  when: gpu_intel
