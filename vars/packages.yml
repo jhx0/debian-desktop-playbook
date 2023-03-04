@@ -167,3 +167,4 @@ software_packages:
   - bison
   - libreoffice
   - libreoffice-gtk3
+  - pulsemixer
