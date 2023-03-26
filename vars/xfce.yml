@@ -4,6 +4,7 @@ xfce_packages:
   - xfce4-terminal
   - xfce4-power-manager
   - xfce4-screenshooter
+  - xfce4-goodies
   - thunar-archive-plugin
   - thunar-media-tags-plugin
   - gvfs-backends
@@ -11,3 +12,4 @@ xfce_packages:
   - pulseaudio
   - xarchiver
   - xscreensaver
+  - ristretto

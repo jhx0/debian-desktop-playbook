@@ -3,7 +3,7 @@ software_packages:
   - xdg-user-dirs-gtk
   - xdg-utils
   - fonts-dejavu
-  - fonts-liberation
+  - fonts-liberation2
   - fonts-noto-cjk
   - fonts-noto-color-emoji
   - suckless-tools
@@ -105,24 +105,18 @@ software_packages:
   - cmus
   - cmatrix
   - lynx
-  - w3m
   - scrot
   - fortunes-bofh-excuses
   - inxi
   - conky-std
   - powertop
   - mupdf
-  - php-json
-  - php-mbstring
-  - php-xsl
-  - libxft-dev
   - sox
   - libsox-fmt-mp3
   - fish
   - clamav
   - tigervnc-viewer
   - wamerican
-  - libssl-dev
   - pdfcrack
   - xdotool
   - xclip
@@ -131,40 +125,24 @@ software_packages:
   - texlive-latex-extra
   - pandoc
   - mediainfo
-  - zstd
   - pass
   - fzf
-  - ripgrep
-  - sxiv
-  - ranger
-  - feh
   - vrms
-  - neofetch
   - sshfs
   - stress
   - meson
   - ninja-build
-  - libpulse-dev
-  - libcxxopts-dev
-  - cmake
-  - python3-gi
-  - libncurses-dev
-  - i3lock
   - libarchive-tools
-  - pdfgrep
   - ack
-  - xfishtank
-  - xnest
-  - libpci-dev
   - vlc
   - flameshot
   - keepassxc
-  - oneko
-  - libxi-dev
   - screenkey
-  - gir1.2-keybinder-3.0
-  - python3-setproctitle
-  - bison
   - libreoffice
   - libreoffice-gtk3
-  - pulsemixer
+  - synaptic
+  - atril
+  - cups
+  - system-config-printer
+  - network-manager
+  - network-manager-gnome
