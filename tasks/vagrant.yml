@@ -1,0 +1,20 @@
+---
+- name: Add Vagrant key
+  shell: wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+
+- name: Adding Vagrant repository
+  copy:
+    src: files/vagrant/vagrant.list
+    dest: /etc/apt/sources.list.d
+    owner: root
+    group: root
+    mode: '0644'
+  notify: update apt cache
+
+- name: Update APT cache
+  meta: flush_handlers
+
+- name: Installing Vagrant
+  apt:
+    name: vagrant
+    state: present
