@@ -93,3 +93,10 @@
 
 - import_tasks: tasks/reboot.yml
   tags: reboot
+
+- import_tasks: tasks/chrome.yml
+  tags: chrome
+  when: nonfree
+
+- import_tasks: tasks/vagrant.yml
+  tags: vagrant
