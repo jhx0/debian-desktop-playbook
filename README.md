@@ -4,7 +4,7 @@ A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with 
 ## Features:
 - **Xfce** desktop environment (Basic desktop)
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, etc.)
-- Installs external applications: **Ansible**, **Docker**, **VSCodium**, **Vagrant**, **Google Chrome**
+- Installs external applications: **Ansible**, **Docker**, **VSCodium**, **Vagrant**, **Google Chrome**, **VSCode**
 - Targets **Intel**/**AMD** systems
 - Gaming: **Steam**, **Wine** and more
 - Installs **Libvirt**/**QEMU**/**Virt-Manager**
@@ -93,6 +93,7 @@ docker
 vscodium
 vagrant
 chrome (non-free)
+vscode (non-free)
 reboot
 ```
 
