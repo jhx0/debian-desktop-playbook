@@ -100,3 +100,7 @@
 
 - import_tasks: tasks/vagrant.yml
   tags: vagrant
+
+- import_tasks: tasks/vscode.yml
+  tags: vscode
+  when: nonfree

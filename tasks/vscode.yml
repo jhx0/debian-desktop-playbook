@@ -1,0 +1,4 @@
+---
+- name: Installing Visual Studio Code
+  ansible.builtin.apt:
+    deb: https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
