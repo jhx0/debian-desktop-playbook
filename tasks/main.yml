@@ -104,3 +104,7 @@
 - import_tasks: tasks/vscode.yml
   tags: vscode
   when: nonfree
+
+- import_tasks: tasks/discord.yml
+  tags: discord
+  when: nonfree
