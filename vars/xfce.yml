@@ -13,3 +13,7 @@ xfce_packages:
   - xarchiver
   - xscreensaver
   - ristretto
+  - xdg-user-dirs-gtk
+  - xdg-utils
+  - atril
+  - galculator
