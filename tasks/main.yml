@@ -57,6 +57,9 @@
 - import_tasks: tasks/xfce.yml
   tags: xfce
 
+- import_tasks: tasks/gnome.yml
+  tags: gnome
+
 - import_tasks: tasks/packages.yml
   tags: packages
 

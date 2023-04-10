@@ -1,0 +1,34 @@
+---
+gnome_packages:
+  - gnome-session
+  - gnome-terminal
+  - gnome-tweaks
+  - gnome-calendar
+  - gnome-characters
+  - gnome-clocks
+  - gnome-color-manager
+  - gnome-contacts
+  - gnome-disk-utility
+  - gnome-font-viewer
+  - gnome-shell-extensions
+  - gnome-system-monitor
+  - gnome-text-editor
+  - gnome-themes-extra
+  - gnome-video-effects
+  - gnome-weather
+  - gnome-logs
+  - gnome-calculator
+  - gnome-software
+  - gnome-sound-recorder
+  - gnome-sushi
+  - p7zip-full
+  - eog
+  - evince
+  - fonts-cantarell
+  - fwupd
+  - appstream
+  - baobab
+  - file-roller
+  - xdg-desktop-portal-gnome
+  - xdg-user-dirs-gtk
+  - xdg-utils
