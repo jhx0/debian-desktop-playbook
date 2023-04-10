@@ -1,8 +1,8 @@
 # debian-desktop-playbook
-A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce** and many additional packages.
+A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce**/**Gnome** and many additional packages.
 
 ## Features:
-- **Xfce** desktop environment (Basic desktop)
+- **Xfce**/**Gnome** desktop environment (Basic desktop)
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, etc.)
 - Installs external applications: **Ansible**, **Docker**, **VSCodium**, **Vagrant**, **Google Chrome**, **VSCode**, **Discord**
 - Targets **Intel**/**AMD** systems
@@ -80,6 +80,7 @@ microcode (non-free)
 xorg
 gpu (non-free)
 xfce
+gnome
 packages
 fontconfig
 laptop
