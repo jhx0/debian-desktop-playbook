@@ -8,11 +8,6 @@
     name: postfix
     state: restarted
 
-- name: restarting rsyslog
-  systemd:
-    name: rsyslog
-    state: restarted
-
 - name: restart sshd
   systemd:
     name: sshd

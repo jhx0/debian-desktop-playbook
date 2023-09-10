@@ -9,6 +9,10 @@
     name: stow
     state: present
 
+- name: Check if dotfiles already exist
+  stat: path=/home/{{ user_name }}/Dotfiles
+  register: dotfiles
+
 - name: Cloning dotfiles
   git:
     repo: https://github.com/jhx0/Dotfiles.git
@@ -16,15 +20,18 @@
   become: true
   become_user: "{{ user_name }}"
   become_method: su
+  when: not dotfiles.stat.exists
 
 - name: Delete default configs
   shell: cd /home/{{ user_name }}; rm -f .bashrc .bash_logout .profile
   become: true
   become_user: "{{ user_name }}"
   become_method: su
+  when: not dotfiles.stat.exists
 
 - name: Deploying dotfiles for user {{ user_name }}
   shell: cd /home/{{ user_name }}/Dotfiles && stow . 
   become: true
   become_user: "{{ user_name }}"
   become_method: su
+  when: not dotfiles.stat.exists

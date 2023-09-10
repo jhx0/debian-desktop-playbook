@@ -1,5 +1,5 @@
 ---
-debian_release: "bullseye"
+debian_release: "bookworm"
 debian_main_mirror: "http://mirror.de.leaseweb.net/debian/"
 debian_security_mirror: "http://security.debian.org/debian-security"
 debian_updates_mirror: "http://mirror.de.leaseweb.net/debian/"

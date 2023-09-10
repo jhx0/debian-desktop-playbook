@@ -1,9 +1,0 @@
----
-- name: Installing Laptop specific software
-  apt:
-    name: "{{ item }}"
-    state: present
-  loop:
-    - xserver-xorg-input-synaptics
-    - network-manager
-    - network-manager-gnome

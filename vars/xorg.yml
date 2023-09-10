@@ -6,4 +6,7 @@ xorg_packages:
   - xserver-xorg-input-libinput
   - x11-utils
   - mesa-utils
-  - xdm
+  - xserver-xorg-input-synaptics
+  - xserver-xorg-video-intel
+  - xserver-xorg-video-amdgpu
+  - firmware-amd-graphics

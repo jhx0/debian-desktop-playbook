@@ -1,7 +1,0 @@
----
-nonfree: false
-
-microcode_amd: false
-microcode_intel: false
-
-gpu_firmware_amd: false

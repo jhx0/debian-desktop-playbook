@@ -1,5 +1,0 @@
----
-- name: Installing LXC
-  apt:
-    name: "{{ lxc_packages }}"
-    state: present

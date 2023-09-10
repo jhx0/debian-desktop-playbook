@@ -6,19 +6,11 @@
 
   vars_files:
     - vars/main.yml
-    - vars/nonfree.yml
     - vars/mirror.yml
     - vars/xorg.yml
-    - vars/gpu.yml
+    - vars/gnome.yml
     - vars/xfce.yml
     - vars/packages.yml
-    - vars/libvirt.yml
-    - vars/lxc.yml
-    - vars/emulator.yml
-    - vars/wine.yml
-    - vars/steam.yml
-    - vars/ansible.yml
-    - vars/docker.yml
 
   handlers:
     - name: Include handlers

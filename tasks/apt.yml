@@ -6,17 +6,6 @@
     owner: root
     group: root
     mode: '0644'
-  when: nonfree == false
-  notify: update apt cache
-
-- name: Add custom sources.list (nonfree)
-  template: 
-    src: apt/sources.list.nonfree.j2
-    dest: /etc/apt/sources.list
-    owner: root
-    group: root
-    mode: '0644'
-  when: nonfree
   notify: update apt cache
 
 - name: Update APT cache

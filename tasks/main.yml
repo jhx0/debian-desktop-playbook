@@ -14,20 +14,11 @@
 - import_tasks: tasks/postfix.yml
   tags: postfix
 
-- import_tasks: tasks/rsyslog.yml
-  tags: rsyslog
-
 - import_tasks: tasks/sshd.yml
   tags: sshd
 
 - import_tasks: tasks/sudo.yml
   tags: sudo
-
-- import_tasks: tasks/pam.yml
-  tags: pam
-
-- import_tasks: tasks/groups.yml
-  tags: groups
 
 - import_tasks: tasks/ntp.yml
   tags: ntp
@@ -44,70 +35,31 @@
 - import_tasks: tasks/fail2ban.yml
   tags: fail2ban
 
-- import_tasks: tasks/microcode.yml
-  tags: microcode
-  when: nonfree
-
 - import_tasks: tasks/xorg.yml
   tags: xorg
 
-- import_tasks: tasks/gpu.yml
-  tags: gpu
+- import_tasks: tasks/gnome.yml
+  tags: gnome
+  when: gnome_desktop
 
 - import_tasks: tasks/xfce.yml
   tags: xfce
-
-- import_tasks: tasks/gnome.yml
-  tags: gnome
+  when: xfce_desktop
 
 - import_tasks: tasks/packages.yml
   tags: packages
 
+- import_tasks: tasks/groups.yml
+  tags: groups
+
 - import_tasks: tasks/fontconfig.yml
   tags: fontconfig
-
-- import_tasks: tasks/laptop.yml
-  tags: laptop
-
-- import_tasks: tasks/libvirt.yml
-  tags: libvirt
-
-- import_tasks: tasks/lxc.yml
-  tags: lxc
-
-- import_tasks: tasks/emulator.yml
-  tags: emulator
-
-- import_tasks: tasks/wine.yml
-  tags: wine
-
-- import_tasks: tasks/steam.yml
-  tags: steam
-  when: nonfree
-
-- import_tasks: tasks/ansible.yml
-  tags: ansible
-
-- import_tasks: tasks/docker.yml
-  tags: docker
 
 - import_tasks: tasks/vscodium.yml
   tags: vscodium
 
-- import_tasks: tasks/reboot.yml
-  tags: reboot
-
-- import_tasks: tasks/chrome.yml
-  tags: chrome
-  when: nonfree
-
-- import_tasks: tasks/vagrant.yml
-  tags: vagrant
-
-- import_tasks: tasks/vscode.yml
-  tags: vscode
-  when: nonfree
-
 - import_tasks: tasks/discord.yml
   tags: discord
-  when: nonfree
+
+- import_tasks: tasks/reboot.yml
+  tags: reboot

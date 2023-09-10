@@ -1,4 +1,11 @@
 ---
+- name: Enable non-root Wireshark (debconf)
+  debconf:
+    name: wireshark-common
+    question: wireshark-common/install-setuid
+    value: 'true'
+    vtype: boolean
+
 - name: Installing software
   apt:
     name: "{{ software_packages }}"

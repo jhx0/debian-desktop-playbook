@@ -1,4 +1,0 @@
----
-ansible_debian_release: "focal"
-ansible_key_id: "93C4A3FD7BB9C367"
-ansible_package: "ansible"

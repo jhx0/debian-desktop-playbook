@@ -2,8 +2,7 @@
 software_packages:
   - fonts-dejavu
   - fonts-liberation2
-  - fonts-noto-cjk
-  - fonts-noto-color-emoji
+  - fonts-noto
   - bc
   - git
   - apt-transport-https
@@ -11,7 +10,6 @@ software_packages:
   - uptimed
   - needrestart
   - htop
-  - vim
   - dmidecode
   - tcpdump
   - whois
@@ -23,7 +21,7 @@ software_packages:
   - lsof
   - strace
   - netcat-traditional
-  - s-nail
+  - bsd-mailx
   - tmux
   - mlocate
   - bash-completion
@@ -57,10 +55,8 @@ software_packages:
   - anacron
   - tree
   - telnet
-  - mupdf
   - ipcalc
   - ncftp
-  - newsboat
   - apt-listchanges
   - apt-file
   - debian-goodies
@@ -87,9 +83,16 @@ software_packages:
   - flameshot
   - keepassxc
   - libreoffice
-  - libreoffice-gtk3
-  - synaptic
+  - libreoffice-gnome
+  - golang-go
   - network-manager
   - network-manager-gnome
   - network-manager-openvpn-gnome
   - procinfo
+  - ansible
+  - docker.io
+  - apache2
+  - libapache2-mod-php
+  - wireshark-qt
+  - amd64-microcode
+  - intel-microcode

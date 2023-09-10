@@ -1,8 +1,11 @@
-deb {{ debian_main_mirror }} {{ debian_release }} main
-deb-src {{ debian_main_mirror }} {{ debian_release }} main
+deb {{ debian_main_mirror }} {{ debian_release }} main contrib non-free non-free-firmware
+deb-src {{ debian_main_mirror }} {{ debian_release }} main contrib non-free non-free-firmware
 
-deb {{ debian_security_mirror }} {{ debian_release }}-security main
-deb-src {{ debian_security_mirror }} {{ debian_release }}-security main
+deb {{ debian_security_mirror }} {{ debian_release }}-security main contrib non-free non-free-firmware
+deb-src {{ debian_security_mirror }} {{ debian_release }}-security main contrib non-free non-free-firmware
 
-deb {{ debian_updates_mirror }} {{ debian_release }}-updates main
-deb-src {{ debian_updates_mirror }} {{ debian_release }}-updates main
+deb {{ debian_updates_mirror }} {{ debian_release }}-updates main contrib non-free non-free-firmware
+deb-src {{ debian_updates_mirror }} {{ debian_release }}-updates main contrib non-free non-free-firmware
+
+deb {{ debian_backports_mirror }} {{ debian_release }}-backports main contrib non-free non-free-firmware
+deb-src {{ debian_backports_mirror }} {{ debian_release }}-backports main contrib non-free non-free-firmware
