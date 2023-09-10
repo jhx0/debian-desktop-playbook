@@ -1,6 +1,8 @@
 # debian-desktop-playbook
 A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce**/**Gnome** and many additional packages.
 
+Adapted for Debian 12 (Bookworm)
+
 ## Features:
 - **Xfce**/**Gnome** desktop environment (Desktop task)
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, etc.)
