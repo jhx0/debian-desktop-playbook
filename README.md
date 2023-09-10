@@ -2,29 +2,14 @@
 A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce**/**Gnome** and many additional packages.
 
 ## Features:
-- **Xfce**/**Gnome** desktop environment (Basic desktop)
+- **Xfce**/**Gnome** desktop environment (Desktop task)
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, etc.)
-- Installs external applications: **Ansible**, **Docker**, **VSCodium**, **Vagrant**, **Google Chrome**, **VSCode**, **Discord**
-- Targets **Intel**/**AMD** systems
-- Gaming: **Steam**, **Wine** and more
-- Installs **Libvirt**/**QEMU**/**Virt-Manager**
-- By default: Only **FOSS** software will be installed! **No** **nonfree**/**contrib** packages! (You can change this)
-- ...and much more!
+- Installs external applications: **VSCodium**, **Discord**
+- Targets **Intel**/**AMD** systems (CPU/GPU)
+- Almost everything comes from the main repos
 
 ## Hint
-If you want to install nonfree software like **Steam** for example, you need to edit/set the **nonfree** variable which is defined in **vars/nonfree.yml**   
-```yaml
-nonfree.yml:
-nonfree: true
-```
-Also: AMD GPU's use firmware to work. In this case you need to specify 
-```yaml
-gpu.yml: 
-gpu_amd: true
-...
-nonfree.yml:
-gpu_firmware_amd: true
-```
+This Playbook mainly servers my own needs - feel free to adapt it to yours!
 
 You can find many more variables under the **vars** directory - Make sure you take a look before running the **Playbook**. (So you can customize your install)
 
@@ -53,11 +38,11 @@ $ ansible-playbook main.yml --tags all (-Kk)
 ```
 2. Only run a subset of tasks
 ```bash
-$ ansible-playbook main.yml --tags "apt,vim,rsyslog,sysctl,grub,reboot" (-Kk)
+$ ansible-playbook main.yml --tags "apt,vim,sysctl,grub,reboot" (-Kk)
 ```
 3. Run only one task
 ```bash
-$ ansible-playbook main.yml --tags "steam" (-Kk)
+$ ansible-playbook main.yml --tags "vscodium" (-Kk)
 ```
 All available **Tags**:
 ```bash
@@ -66,36 +51,21 @@ upgrade
 vim
 dotfiles
 postfix
-rsyslog
 sshd
 sudo
-pam
 groups
 ntp
 sysctl
 grub
 fstrim
 fail2ban
-microcode (non-free)
 xorg
-gpu (non-free)
 xfce
 gnome
 packages
 fontconfig
-laptop
-libvirt
-lxc
-emulator
-wine (non-free)
-steam (non-free)
-ansible
-docker
-vscodium
-vagrant
-chrome (non-free)
-vscode (non-free)
-discord (non-free)
+vscodium (external)
+discord (external)
 reboot
 ```
 
