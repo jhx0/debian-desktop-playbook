@@ -96,3 +96,4 @@ software_packages:
   - wireshark-qt
   - amd64-microcode
   - intel-microcode
+  - mingw-w64
