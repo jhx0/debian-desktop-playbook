@@ -97,3 +97,4 @@ software_packages:
   - amd64-microcode
   - intel-microcode
   - mingw-w64
+  - simplescreenrecorder
