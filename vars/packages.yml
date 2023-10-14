@@ -98,3 +98,7 @@ software_packages:
   - intel-microcode
   - mingw-w64
   - simplescreenrecorder
+  - gvfs-backends
+  - samba
+  - nfs-kernel-server
+
