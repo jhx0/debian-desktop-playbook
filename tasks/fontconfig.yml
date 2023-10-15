@@ -10,3 +10,11 @@
     src: "/usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf"
     dest: "/etc/fonts/conf.d/10-sub-pixel-rgb.conf"
     state: link
+
+- name: Deploy Emoji fix (Noto)
+  copy:
+    src: files/fontconfig/68-color-emoji-fix.conf
+    dest: "/etc/fonts/conf.d/68-color-emoji-fix.conf"
+    owner: root
+    group: root
+    mode: '0644'
