@@ -101,4 +101,4 @@ software_packages:
   - gvfs-backends
   - samba
   - nfs-kernel-server
-
+  - handbrake
