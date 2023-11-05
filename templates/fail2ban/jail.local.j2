@@ -1,7 +1,8 @@
 [sshd]
 enabled   = true
+backend   = systemd
 port	  = {{ fail2ban_sshd_port }}
 maxretry  = 2
 findtime  = 10m
-bantime   = 23d
+bantime   = 30d
 ignoreip  = 127.0.0.0/8 
