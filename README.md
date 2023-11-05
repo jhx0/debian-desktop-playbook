@@ -4,7 +4,7 @@ A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with 
 Adapted for Debian 12 (Bookworm)
 
 ## Features:
-- **Xfce**/**Gnome** desktop environment (Desktop task)
+- **Xfce**/**Gnome**/**KDE** desktop environment (Desktop task)
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, etc.)
 - Installs external applications: **VSCodium**, **Discord**
 - Targets **Intel**/**AMD** systems (CPU/GPU)
@@ -64,6 +64,7 @@ fail2ban
 xorg
 xfce
 gnome
+kde
 packages
 fontconfig
 vscodium (external)
