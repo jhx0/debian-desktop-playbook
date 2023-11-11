@@ -46,6 +46,10 @@
   tags: xfce
   when: xfce_desktop
 
+- import_tasks: tasks/kde.yml
+  tags: kde
+  when: kde_desktop
+
 - import_tasks: tasks/packages.yml
   tags: packages
 
@@ -60,6 +64,15 @@
 
 - import_tasks: tasks/discord.yml
   tags: discord
+
+- import_tasks: tasks/virtualbox.yml
+  tags: virtualbox
+
+- import_tasks: tasks/element.yml
+  tags: element
+
+- import_tasks: tasks/brave.yml
+  tags: brave
 
 - import_tasks: tasks/reboot.yml
   tags: reboot

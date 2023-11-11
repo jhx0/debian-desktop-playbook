@@ -10,3 +10,15 @@
   apt:
     name: "{{ software_packages }}"
     state: present
+
+- name: Adding "{{ user_name }}" to wireshark group
+  user:
+    name: "{{ user_name }}"
+    groups: wireshark
+    append: yes
+  
+- name: Adding "{{ user_name }}" to docker group
+  user:
+    name: "{{ user_name }}"
+    groups: docker
+    append: yes

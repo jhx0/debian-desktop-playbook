@@ -13,4 +13,4 @@ ntp_fallback_servers: 0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.
 
 xfce_desktop: false
 gnome_desktop: false
-kde_desktop: false
+kde_desktop: true

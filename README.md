@@ -1,12 +1,13 @@
 # debian-desktop-playbook
-A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce**/**Gnome** and many additional packages.
+A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce**/**Gnome**/**KDE** and many additional packages.
 
 Adapted for Debian 12 (Bookworm)
 
 ## Features:
 - **Xfce**/**Gnome**/**KDE** desktop environment (Desktop task)
-- Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, etc.)
-- Installs external applications: **VSCodium**, **Discord**
+- By default, no desktop environment is selected. Chose what you need!
+- Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
+- Installs external applications: **VSCodium**, **Discord**, **Element**, **Virtualbox**, **Brave**
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Almost everything comes from the main repos
 
@@ -69,6 +70,9 @@ packages
 fontconfig
 vscodium (external)
 discord (external)
+element (external)
+virtualbox (external)
+brave (external)
 reboot
 ```
 
