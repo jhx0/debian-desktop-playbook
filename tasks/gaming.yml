@@ -4,7 +4,6 @@
 
 - name: Update APT cache
   meta: flush_handlers
-  ignore_errors: true
 
 - name: Installing emulators
   apt:
