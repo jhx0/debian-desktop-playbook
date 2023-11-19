@@ -1,0 +1,22 @@
+---
+- name: Enabling 32bit support (DPKG)
+  shell: dpkg --add-architecture i386
+
+- name: Update APT cache
+  meta: flush_handlers
+  ignore_errors: true
+
+- name: Installing emulators
+  apt:
+    name: "{{ emulator_packages }}"
+    state: present
+
+- name: Installing Wine
+  apt:
+    name: "{{ wine_packages }}"
+    state: present
+
+- name: Installing Steam
+  apt:
+    name: "{{ steam_packages }}"
+    state: present

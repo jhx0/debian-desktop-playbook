@@ -74,5 +74,8 @@
 - import_tasks: tasks/brave.yml
   tags: brave
 
+- import_tasks: tasks/gaming.yml
+  tags: gaming
+
 - import_tasks: tasks/reboot.yml
   tags: reboot

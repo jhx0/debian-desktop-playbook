@@ -12,6 +12,7 @@
     - vars/kde.yml
     - vars/xfce.yml
     - vars/packages.yml
+    - vars/gaming.yml
 
   handlers:
     - name: Include handlers

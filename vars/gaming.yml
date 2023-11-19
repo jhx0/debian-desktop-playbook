@@ -1,0 +1,19 @@
+---
+emulator_packages:
+  - mednafen
+  - mednaffe
+  - mupen64plus-qt
+
+steam_packages:
+  - steam-installer
+  - mesa-vulkan-drivers
+  - libglx-mesa0:i386
+  - mesa-vulkan-drivers:i386
+  - libgl1-mesa-dri:i386
+
+wine_packages:
+  - wine
+  - wine64
+  - libwine
+  - fonts-wine
+  - winetricks

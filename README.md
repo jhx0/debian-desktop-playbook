@@ -8,6 +8,7 @@ Adapted for Debian 12 (Bookworm)
 - By default, no desktop environment is selected. Chose what you need!
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
 - Installs external applications: **VSCodium**, **Discord**, **Element**, **Virtualbox**, **Brave**
+- Gaming: **Steam** and retro gaming emulators (**Mupen**, **Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Almost everything comes from the main repos
 
@@ -68,6 +69,7 @@ gnome
 kde
 packages
 fontconfig
+gaming
 vscodium (external)
 discord (external)
 element (external)
