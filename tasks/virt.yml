@@ -1,0 +1,11 @@
+---
+- name: Installing Virtualization packages
+  apt:
+    name: "{{ virt_packages }}"
+    state: present
+
+- name: Adding "{{ user_name }}" to virtualization related groups
+  user:
+    name: "{{ user_name }}"
+    groups: kvm,libvirt,libvirt-qemu
+    append: yes

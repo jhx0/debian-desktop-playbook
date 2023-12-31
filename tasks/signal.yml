@@ -1,0 +1,20 @@
+---
+- name: Add Signal key
+  shell: wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > /usr/share/keyrings/signal-desktop-keyring.gpg
+
+- name: Adding Signal repository
+  copy:
+    src: files/signal/signal.list
+    dest: /etc/apt/sources.list.d
+    owner: root
+    group: root
+    mode: '0644'
+  notify: update apt cache
+
+- name: Update APT cache
+  meta: flush_handlers
+
+- name: Installing Signal
+  apt:
+    name: signal-desktop
+    state: present

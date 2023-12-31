@@ -1,23 +1,24 @@
 # debian-desktop-playbook
 A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce**/**Gnome**/**KDE** and many additional packages.
 
-Adapted for Debian 12 (Bookworm)
+Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **Xfce**/**Gnome**/**KDE** desktop environment (Desktop task)
-- By default, no desktop environment is selected. Chose what you need!
+- **Xfce**/**Gnome**/**KDE** desktop environments available (Desktop task)
+- By default, **KDE** is selected. You can of course change that!
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
-- Installs external applications: **VSCodium**, **Discord**, **Element**, **Virtualbox**, **Brave**
-- Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen**, **Mednaffe**)
+- Installs external applications: **VSCodium**, **Discord**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**)
+- Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
-- Almost everything comes from the main repos
+- Virtualization packages (**libvirt/QEMU/Virt-Manager**)
+- Almost everything comes from the main repos!
 
 ## Hint
 This Playbook mainly servers my own needs - feel free to adapt it to yours!
 
 You can find many more variables under the **vars** directory - Make sure you take a look before running the **Playbook**. (So you can customize your install)
 
-The **dotfiles** tasks installs my own config files. This might not be what you need - be sure to exclude the role when not needed. (This can be done via **tags**)
+The **dotfiles** tasks installs my own config files. This might not be what you need - be sure to exclude the **role** when not needed. (This can be done via **tags**)
 
 ## Before running the Playbook:
 - Set the variables you need
@@ -75,6 +76,8 @@ discord (external)
 element (external)
 virtualbox (external)
 brave (external)
+mullvad (external)
+signal (external)
 reboot
 ```
 

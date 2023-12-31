@@ -1,0 +1,9 @@
+---
+virt_packages:
+  - qemu-system-x86
+  - libvirt-daemon-system
+  - virt-manager
+  - libosinfo-bin
+  - bridge-utils
+  - ovmf
+  - qemu-utils
