@@ -92,3 +92,4 @@ software_packages:
   - simplescreenrecorder
   - samba
   - nfs-kernel-server
+  - iotop
