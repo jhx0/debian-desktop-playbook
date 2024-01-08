@@ -78,6 +78,7 @@ virtualbox (external)
 brave (external)
 mullvad (external)
 signal (external)
+powershell (external)
 reboot
 ```
 
