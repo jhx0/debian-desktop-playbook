@@ -89,5 +89,8 @@
 - import_tasks: tasks/powershell.yml
   tags: powershell
 
+- import_tasks: tasks/flatpak.yml
+  tags: flatpak
+
 - import_tasks: tasks/reboot.yml
   tags: reboot

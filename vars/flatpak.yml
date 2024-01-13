@@ -1,0 +1,3 @@
+---
+flatpak_packages:
+  - org.mozilla.firefox

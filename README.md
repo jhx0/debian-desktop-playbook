@@ -11,6 +11,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
+- **Flatpak** installed by default (With one Flatpak: **Firefox**)
 - Almost everything comes from the main repos!
 
 ## Hint
@@ -71,6 +72,7 @@ kde
 packages
 fontconfig
 gaming
+flatpak
 vscodium (external)
 discord (external)
 element (external)
