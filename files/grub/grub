@@ -30,3 +30,6 @@ GRUB_DISABLE_RECOVERY="true"
 
 # Uncomment to get a beep at grub start
 #GRUB_INIT_TUNE="480 440 1"
+
+# Enable os-prober
+GRUB_DISABLE_OS_PROBER=false
