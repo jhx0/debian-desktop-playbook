@@ -89,6 +89,9 @@
 - import_tasks: tasks/powershell.yml
   tags: powershell
 
+- import_tasks: tasks/vagrant.yml
+  tags: vagrant
+
 - import_tasks: tasks/flatpak.yml
   tags: flatpak
 

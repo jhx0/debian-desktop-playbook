@@ -7,7 +7,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - **Xfce**/**Gnome**/**KDE** desktop environments available (Desktop task)
 - By default, **KDE** is selected. You can of course change that!
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
-- Installs external applications: **VSCodium**, **Discord**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**)
+- Installs external applications: **VSCodium**, **Discord**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**, **Vagrant**)
 - Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
@@ -81,6 +81,7 @@ brave (external)
 mullvad (external)
 signal (external)
 powershell (external)
+vagrant (external)
 reboot
 ```
 
