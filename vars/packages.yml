@@ -93,3 +93,4 @@ software_packages:
   - samba
   - nfs-kernel-server
   - iotop
+  - aria2
