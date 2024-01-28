@@ -95,5 +95,8 @@
 - import_tasks: tasks/flatpak.yml
   tags: flatpak
 
+- import_tasks: tasks/rpi-imager.yml
+  tags: rpi-imager
+
 - import_tasks: tasks/reboot.yml
   tags: reboot
