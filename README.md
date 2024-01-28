@@ -8,6 +8,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - By default, **Xfce** is selected. You can of course change that!
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
 - Installs external applications: **VSCodium**, **Discord**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**, **Vagrant**, **Raspberry Pi Imager**)
+- Gets the current **JDownloader** setup for offline install
 - Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
@@ -74,6 +75,7 @@ fontconfig
 gaming
 flatpak
 rpi-imager
+jdownloader (Download setup only)
 vscodium (external)
 discord (external)
 element (external)
