@@ -4,8 +4,7 @@ A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with 
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **Xfce**/**Gnome**/**KDE** desktop environments available (Desktop task)
-- By default, **Xfce** is selected. You can of course change that!
+- **Xfce** desktop by default.
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
 - Installs external applications: **VSCodium**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**, **Vagrant**, **Raspberry Pi Imager**)
 - Gets the current **JDownloader** setup for offline install
