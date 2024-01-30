@@ -94,3 +94,6 @@ software_packages:
   - nfs-kernel-server
   - iotop
   - aria2
+  - remmina
+  - obs-studio
+  - handbrake
