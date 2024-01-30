@@ -68,8 +68,6 @@ fstrim
 fail2ban
 xorg
 xfce
-gnome
-kde
 packages
 fontconfig
 gaming

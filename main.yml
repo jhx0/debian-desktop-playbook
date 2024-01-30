@@ -8,8 +8,6 @@
     - vars/main.yml
     - vars/mirror.yml
     - vars/xorg.yml
-    - vars/gnome.yml
-    - vars/kde.yml
     - vars/xfce.yml
     - vars/packages.yml
     - vars/gaming.yml
