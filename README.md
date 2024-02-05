@@ -14,6 +14,11 @@ Adapted for **Debian 12** (**Bookworm**)
 - **Flatpak** installed by default (With one Flatpak: **Firefox**)
 - Almost everything comes from the main repos!
 
+## Screenshot
+![debian](https://github.com/jhx0/debian-desktop-playbook/assets/37046652/436bb3f7-011b-498b-8de4-5b35aade3a7f)
+
+There is nothing big to see here. I like the defaults and don't really change much of anything. YMMV. 😎
+
 ## Hint
 This Playbook mainly servers my own needs - feel free to adapt it to yours!
 
