@@ -1,10 +1,10 @@
 # debian-desktop-playbook
-A **Ansible** **Playbook** to deploy/configure a **Debian** desktop system with **Xfce**/**Gnome**/**KDE** and many additional packages.
+A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** and many additional packages.
 
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **Xfce** desktop by default.
+- **KDE (Plasma)** desktop by default.
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
 - Installs external applications: **VSCodium**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**, **Vagrant**, **Raspberry Pi Imager**)
 - Gets the current **JDownloader** setup for offline install
@@ -66,7 +66,7 @@ grub
 fstrim
 fail2ban
 xorg
-xfce
+kde
 packages
 fontconfig
 gaming

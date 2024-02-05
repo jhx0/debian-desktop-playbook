@@ -8,7 +8,7 @@
     - vars/main.yml
     - vars/mirror.yml
     - vars/xorg.yml
-    - vars/xfce.yml
+    - vars/kde.yml
     - vars/packages.yml
     - vars/gaming.yml
     - vars/virt.yml
