@@ -1,6 +1,6 @@
 ---
 - name: Downloading PowerShell
-  shell: wget 'https://github.com/PowerShell/PowerShell/releases/download/v7.4.0/powershell_7.4.0-1.deb_amd64.deb' -O /tmp/powershell.deb
+  shell: wget 'https://github.com/PowerShell/PowerShell/releases/download/v7.4.1/powershell_7.4.1-1.deb_amd64.deb' -O /tmp/powershell.deb
 
 - name: Installing PowerShell
   ansible.builtin.apt:
