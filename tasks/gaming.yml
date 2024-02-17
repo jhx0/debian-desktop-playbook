@@ -1,6 +1,7 @@
 ---
 - name: Enabling 32bit support (DPKG)
   shell: dpkg --add-architecture i386
+  notify: update apt cache
 
 - name: Update APT cache
   meta: flush_handlers
