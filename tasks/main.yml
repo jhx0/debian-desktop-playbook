@@ -40,6 +40,11 @@
 
 - import_tasks: tasks/kde.yml
   tags: kde
+  when: kde_desktop
+
+- import_tasks: tasks/xfce.yml
+  tags: xfce
+  when: xfce_desktop
 
 - import_tasks: tasks/packages.yml
   tags: packages

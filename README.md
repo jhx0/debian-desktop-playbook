@@ -1,13 +1,13 @@
 # debian-desktop-playbook
-A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** and many additional packages.
+A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** or **Xfce** and many additional packages.
 
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **KDE (Plasma)** desktop by default.
+- **KDE (Plasma)** or **xfce** desktop - you can select which one you like (Default is **Xfce**).
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
 - Installs external applications: **VSCodium**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**, **Vagrant**, **Raspberry Pi Imager**)
-- Gets the current **JDownloader** setup for offline install
+- Gets the current **JDownloader** setup for offline install (Stored in **$HOME**)
 - Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
@@ -18,6 +18,7 @@ Adapted for **Debian 12** (**Bookworm**)
 ![debian](https://github.com/jhx0/debian-desktop-playbook/assets/37046652/436bb3f7-011b-498b-8de4-5b35aade3a7f)
 
 There is nothing big to see here. I like the defaults and don't really change much of anything. YMMV. 😎
+(Default **KDE** desktop pictured here - if you must have a screenshot)
 
 ## Hint
 This Playbook mainly servers my own needs - feel free to adapt it to yours!
@@ -72,6 +73,7 @@ fstrim
 fail2ban
 xorg
 kde
+xfce
 packages
 fontconfig
 gaming
@@ -93,3 +95,8 @@ reboot
 Make sure you have set the correct IP/Hostname in the **hosts** file.   
 
 **BEWARE:** do **_NOT_** run this Playbook blindly!
+
+## Ubuntu
+Certain tasks will run on **Ubuntu** and **Ubuntu** based systems.
+Beware though that this **Playbook** was not tested on any **Ubuntu** system!
+Make sure to check the tasks to see what they actually do before running this on any **Ubuntu** based system!

@@ -1,0 +1,5 @@
+---
+- name: Installing Xfce
+  apt:
+    name: "{{ xfce_packages }}"
+    state: present
