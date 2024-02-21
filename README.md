@@ -4,7 +4,7 @@ A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop sys
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **KDE (Plasma)** or **xfce** desktop - you can select which one you like (Default is **Xfce**).
+- **KDE (Plasma)** or **xfce** desktop - you can select which one you like (Default is **KDE**).
 - Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
 - Installs external applications: **VSCodium**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**, **Vagrant**, **Raspberry Pi Imager**)
 - Gets the current **JDownloader** setup for offline install (Stored in **$HOME**)
