@@ -11,10 +11,18 @@
     dest: "/etc/fonts/conf.d/10-sub-pixel-rgb.conf"
     state: link
 
-- name: Deploy Emoji fix (Noto)
+- name: Deploy Kubuntu Color Emoji configs (Emoji Fix)
   copy:
-    src: files/fontconfig/68-color-emoji-fix.conf
-    dest: "/etc/fonts/conf.d/68-color-emoji-fix.conf"
+    src: files/fontconfig/50-user.conf
+    dest: "/etc/fonts/conf.d/50-user.conf"
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Deploy Kubuntu Color Emoji configs (Emoji fix)
+  copy:
+    src: files/fontconfig/56-kubuntu-noto.conf
+    dest: "/etc/fonts/conf.d/56-kubuntu-noto.conf"
     owner: root
     group: root
     mode: '0644'
