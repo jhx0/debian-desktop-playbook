@@ -1,5 +1,0 @@
----
-- name: Installing KDE
-  apt:
-    name: "{{ kde_packages }}"
-    state: present

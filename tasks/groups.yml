@@ -2,5 +2,5 @@
 - name: Adding "{{ user_name }}" to multiple default groups
   user:
     name: "{{ user_name }}"
-    groups: kvm,adm,systemd-journal,docker,wireshark
+    groups: kvm,adm,systemd-journal
     append: yes

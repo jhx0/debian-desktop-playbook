@@ -10,3 +10,55 @@
     src: "/usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf"
     dest: "/etc/fonts/conf.d/10-sub-pixel-rgb.conf"
     state: link
+
+- name: Creating fontconfig directory (~/.config)
+  ansible.builtin.file:
+    path: /home/{{ user_name }}/.config/fontconfig
+    state: directory
+    owner: "{{ user_name }}"
+    group: "{{ user_group_name }}"
+    mode: '0755'
+
+- name: Copy over fonts.conf (~/.config)
+  ansible.builtin.copy:
+    src: files/fontconfig/fonts.conf
+    dest: /home/{{ user_name }}/.config/fontconfig/fonts.conf
+    owner: "{{ user_name }}"
+    group: "{{ user_group_name }}"
+    mode: '0644'
+
+- name: Setting up fontconfig ((1/4) debconf)
+  debconf:
+    name: fontconfig-config
+    question: fontconfig-config/enable_bitmaps
+    value: 'false'
+    vtype: boolean
+
+- name: Setting up fontconfig ((2/4) debconf)
+  debconf:
+    name: fontconfig-config
+    question: fontconfig-config/hinting_style
+    value: hintslight
+    vtype: select
+
+- name: Setting up fontconfig ((3/4) debconf)
+  debconf:
+    name: fontconfig-config
+    question: fontconfig-config/hinting_type
+    value: Native
+    vtype: select
+
+- name: Setting up fontconfig ((4/3) debconf)
+  debconf:
+    name: fontconfig-config
+    question: fontconfig-config/subpixel_rendering
+    value: Always
+    vtype: select
+
+- name: Copy over emoji config (global)
+  ansible.builtin.copy:
+    src: files/fontconfig/68-color-emoji.conf
+    dest: /etc/fonts/conf.d/68-color-emoji.conf
+    owner: root
+    group: root
+    mode: '0644'

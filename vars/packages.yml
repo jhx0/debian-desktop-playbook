@@ -2,6 +2,9 @@
 software_packages:
   - fonts-dejavu
   - fonts-liberation2
+  - fonts-freefont-ttf
+  - ttf-mscorefonts-installer
+  - fonts-ubuntu
   - fonts-noto
   - bc
   - git
@@ -23,7 +26,7 @@ software_packages:
   - netcat-traditional
   - bsd-mailx
   - tmux
-  - mlocate
+  - plocate
   - bash-completion
   - ntfs-3g
   - p7zip-full
@@ -84,6 +87,7 @@ software_packages:
   - ansible
   - docker.io
   - apache2
+  - php
   - libapache2-mod-php
   - wireshark-qt
   - amd64-microcode
@@ -97,3 +101,11 @@ software_packages:
   - remmina
   - obs-studio
   - handbrake
+  - command-not-found
+  - firefox-esr
+  - podman
+  - tor
+  - squid
+  - x265
+  - x264
+  - lame

@@ -1,3 +1,8 @@
 ---
 flatpak_packages:
-  - org.mozilla.firefox
+  - org.signal.Signal
+  - im.riot.Riot
+  - com.brave.Browser
+  - com.vscodium.codium
+  - org.raspberrypi.rpi-imager
+  - org.jdownloader.JDownloader

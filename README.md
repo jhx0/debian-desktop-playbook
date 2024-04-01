@@ -1,24 +1,23 @@
 # debian-desktop-playbook
-A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** or **Xfce** and many additional packages.
+A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **Xfce** and many additional packages.
 
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **KDE (Plasma)** or **xfce** desktop - you can select which one you like (Default is **KDE**).
-- Many additional packages (**LibreOffice**, **LaTex**, **Firefox**, **Docker** etc.)
-- Installs external applications: **VSCodium**, **Element**, **Virtualbox**, **Brave**, **Mullvad (Client)**, **Signal**, **Vagrant**, **Raspberry Pi Imager**)
-- Gets the current **JDownloader** setup for offline install (Stored in **$HOME**)
+- **xfce** desktop by default.
+- Many additional packages from the official repos (**LibreOffice**, **LaTex**, **Firefox-ESR**, **Docker** etc.)
+- **Flatpaks** installed by default: **VSCodium**, **Element**, **Brave**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
+- External applications: **Virtualbox**, **Mullvad (Client)**
 - Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
-- **Flatpak** installed by default (With one Flatpak: **Firefox**)
 - Almost everything comes from the main repos!
 
 ## Screenshot:
 ![debian](https://github.com/jhx0/debian-desktop-playbook/assets/37046652/436bb3f7-011b-498b-8de4-5b35aade3a7f)
 
 There is nothing big to see here. I like the defaults and don't really change much of anything. YMMV. 😎
-(Default **KDE** desktop pictured here - if you must have a screenshot)
+(Default **Xfce** desktop pictured here - if you must have a screenshot)
 
 ## Hint
 This Playbook mainly servers my own needs - feel free to adapt it to yours!
@@ -54,7 +53,7 @@ $ ansible-playbook main.yml --tags "apt,vim,sysctl,grub,reboot" (-Kk)
 ```
 3. Run only one task
 ```bash
-$ ansible-playbook main.yml --tags "vscodium" (-Kk)
+$ ansible-playbook main.yml --tags "flatpak" (-Kk)
 ```
 All available **Tags**:
 ```bash
@@ -72,22 +71,14 @@ grub
 fstrim
 fail2ban
 xorg
-kde
 xfce
 packages
 fontconfig
 gaming
-flatpak
-rpi-imager
-jdownloader (Download setup only)
-vscodium (external)
-element (external)
+flatpak (Multiple Flatpaks installed)
 virtualbox (external)
-brave (external)
 mullvad (external)
-signal (external)
 powershell (external)
-vagrant (external)
 reboot
 ```
 

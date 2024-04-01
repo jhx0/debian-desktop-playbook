@@ -1,3 +1,4 @@
 ---
 xfce_packages:
   - task-xfce-desktop
+  - gvfs-backends

@@ -22,3 +22,9 @@
     name: "{{ user_name }}"
     groups: docker
     append: yes
+
+- name: Update command-not-found database
+  shell: update-command-not-found
+
+- name: Update plocate database
+  shell: /etc/cron.daily/plocate

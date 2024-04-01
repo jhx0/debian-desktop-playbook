@@ -38,13 +38,8 @@
 - import_tasks: tasks/xorg.yml
   tags: xorg
 
-- import_tasks: tasks/kde.yml
-  tags: kde
-  when: kde_desktop
-
 - import_tasks: tasks/xfce.yml
   tags: xfce
-  when: xfce_desktop
 
 - import_tasks: tasks/packages.yml
   tags: packages
@@ -58,23 +53,11 @@
 - import_tasks: tasks/virt.yml
   tags: virt
 
-- import_tasks: tasks/vscodium.yml
-  tags: vscodium
-
 - import_tasks: tasks/virtualbox.yml
   tags: virtualbox
 
-- import_tasks: tasks/element.yml
-  tags: element
-
-- import_tasks: tasks/brave.yml
-  tags: brave
-
 - import_tasks: tasks/gaming.yml
   tags: gaming
-
-- import_tasks: tasks/signal.yml
-  tags: signal
 
 - import_tasks: tasks/mullvad.yml
   tags: mullvad
@@ -88,11 +71,9 @@
 - import_tasks: tasks/flatpak.yml
   tags: flatpak
 
-- import_tasks: tasks/rpi-imager.yml
-  tags: rpi-imager
-
 - import_tasks: tasks/jdownloader.yml
   tags: jdownloader
 
 - import_tasks: tasks/reboot.yml
   tags: reboot
+  when: reboot
