@@ -16,7 +16,7 @@ Adapted for **Debian 12** (**Bookworm**)
 ## Screenshot:
 ![xfce](https://github.com/jhx0/debian-desktop-playbook/assets/37046652/f1cdcc0e-d681-47eb-9587-3f80acd9cbbb)
 
-There is nothing big to see here. I like the defaults and don't really change much of anything. YMMV. 😎
+There is nothing big to see here. I like the defaults and don't really change much of anything. YMMV. 😎   
 (Default **Xfce** desktop pictured here - if you must have a screenshot)
 
 ## Hint
