@@ -4,7 +4,7 @@ A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop sys
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **xfce** desktop by default.
+- **Xfce** desktop by default.
 - Many additional packages from the official repos (**LibreOffice**, **LaTex**, **Firefox-ESR**, **Docker** etc.)
 - **Flatpaks** installed by default: **VSCodium**, **Element**, **Brave**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
 - External applications: **Virtualbox**, **Mullvad (Client)**
