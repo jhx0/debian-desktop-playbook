@@ -68,9 +68,6 @@
 - import_tasks: tasks/flatpak.yml
   tags: flatpak
 
-- import_tasks: tasks/jdownloader.yml
-  tags: jdownloader
-
 - import_tasks: tasks/reboot.yml
   tags: reboot
   when: reboot
