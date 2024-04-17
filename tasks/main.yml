@@ -55,15 +55,18 @@
 
 - import_tasks: tasks/virtualbox.yml
   tags: virtualbox
+  when: external
 
 - import_tasks: tasks/gaming.yml
   tags: gaming
 
 - import_tasks: tasks/mullvad.yml
   tags: mullvad
+  when: external
 
 - import_tasks: tasks/powershell.yml
   tags: powershell
+  when: external
 
 - import_tasks: tasks/flatpak.yml
   tags: flatpak

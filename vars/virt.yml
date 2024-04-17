@@ -4,6 +4,5 @@ virt_packages:
   - libvirt-daemon-system
   - virt-manager
   - libosinfo-bin
-  - bridge-utils
   - ovmf
   - qemu-utils

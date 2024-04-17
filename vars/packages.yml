@@ -109,3 +109,7 @@ software_packages:
   - x265
   - x264
   - lame
+  - vainfo
+  - iptables-persistent
+  - bridge-utils
+  - unrar
