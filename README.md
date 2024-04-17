@@ -7,11 +7,16 @@ Adapted for **Debian 12** (**Bookworm**)
 - **Xfce** desktop by default.
 - Many additional packages from the official repos (**LibreOffice**, **LaTex**, **Firefox-ESR**, **Docker** etc.)
 - **Flatpaks** installed by default: **VSCodium**, **Element**, **Brave**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
-- External applications: **Virtualbox**, **Mullvad (Client)**
+- External applications available: **Virtualbox**, **Mullvad (Client)**
 - Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - Almost everything comes from the main repos!
+
+## External applications
+External applications are only installed when the "external" variable is set to true.   
+Keep that in mind when using this **Playbook**.   
+I made the decision to make these not be installed by default since I personally perefer things from the official repo or installed as a **Flatpak**.
 
 ## Screenshot:
 ![xfce](https://github.com/jhx0/debian-desktop-playbook/assets/37046652/f1cdcc0e-d681-47eb-9587-3f80acd9cbbb)
