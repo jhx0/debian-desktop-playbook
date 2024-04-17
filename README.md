@@ -13,7 +13,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - Almost everything comes from the main repos!
 
-## External applications
+## Note on external applications:
 External applications are only installed when the "external" variable is set to true.   
 Keep that in mind when using this **Playbook**.   
 I made the decision to make these not be installed by default since I personally perefer things from the official repo or installed as a **Flatpak**.
