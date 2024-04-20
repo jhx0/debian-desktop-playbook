@@ -86,6 +86,7 @@ software_packages:
   - procinfo
   - ansible
   - docker.io
+  - docker-compose
   - apache2
   - php
   - libapache2-mod-php
@@ -113,3 +114,8 @@ software_packages:
   - iptables-persistent
   - bridge-utils
   - unrar
+  - silversearcher-ng
+  - filezilla
+  - rofi
+  - conky
+  - fortunes-debian-hints
