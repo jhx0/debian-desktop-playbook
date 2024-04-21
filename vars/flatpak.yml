@@ -6,3 +6,4 @@ flatpak_packages:
   - com.vscodium.codium
   - org.raspberrypi.rpi-imager
   - org.jdownloader.JDownloader
+  - com.rafaelmardojai.Blanket
