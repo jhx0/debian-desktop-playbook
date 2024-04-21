@@ -119,3 +119,4 @@ software_packages:
   - rofi
   - conky
   - fortunes-debian-hints
+  - lynis
