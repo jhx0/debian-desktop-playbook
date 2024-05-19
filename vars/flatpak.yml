@@ -7,3 +7,4 @@ flatpak_packages:
   - org.raspberrypi.rpi-imager
   - org.jdownloader.JDownloader
   - com.rafaelmardojai.Blanket
+  - com.discordapp.Discord
