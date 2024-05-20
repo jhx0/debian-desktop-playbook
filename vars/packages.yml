@@ -123,3 +123,5 @@ software_packages:
   - sox
   - torbrowser-launcher
   - qbittorrent
+  - dosbox
+  - dos2unix
