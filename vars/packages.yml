@@ -121,3 +121,4 @@ software_packages:
   - fortunes-debian-hints
   - lynis
   - sox
+  - torbrowser-launcher
