@@ -120,3 +120,4 @@ software_packages:
   - conky
   - fortunes-debian-hints
   - lynis
+  - sox
