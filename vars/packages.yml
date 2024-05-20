@@ -122,3 +122,4 @@ software_packages:
   - lynis
   - sox
   - torbrowser-launcher
+  - qbittorrent
