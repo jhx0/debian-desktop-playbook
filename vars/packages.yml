@@ -125,3 +125,5 @@ software_packages:
   - qbittorrent
   - dosbox
   - dos2unix
+  - pipx
+  - php-cli
