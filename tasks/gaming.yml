@@ -20,3 +20,7 @@
   apt:
     name: "{{ steam_packages }}"
     state: present
+
+- name: Installing Minecraft
+  apt:
+    deb: https://launcher.mojang.com/download/Minecraft.deb

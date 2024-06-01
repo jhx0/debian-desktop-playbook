@@ -8,7 +8,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - Many additional packages from the official repos (**LibreOffice**, **LaTex**, **Firefox-ESR**, **Docker** etc.)
 - **Flatpaks** installed by default: **Discord**, **VSCodium**, **Element**, **Brave**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
 - External applications available: **Virtualbox**, **Mullvad (Client)**
-- Gaming: **Steam**, **Wine** and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
+- Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - Almost everything comes from the main repos!
