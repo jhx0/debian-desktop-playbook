@@ -127,3 +127,4 @@ software_packages:
   - dos2unix
   - pipx
   - php-cli
+  - groff
