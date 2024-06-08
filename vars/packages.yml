@@ -114,7 +114,7 @@ software_packages:
   - iptables-persistent
   - bridge-utils
   - unrar
-  - silversearcher-ng
+  - silversearcher-ag
   - filezilla
   - rofi
   - conky
