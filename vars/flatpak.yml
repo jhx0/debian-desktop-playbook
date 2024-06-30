@@ -8,4 +8,7 @@ flatpak_packages:
   - org.jdownloader.JDownloader
   - com.rafaelmardojai.Blanket
   - com.discordapp.Discord
+  - flathub org.mozilla.firefox
+
+flatpak_gaming_packages:
   - net.supertuxkart.SuperTuxKart

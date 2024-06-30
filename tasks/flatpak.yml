@@ -10,7 +10,13 @@
     state: present
     flatpakrepo_url: https://flathub.org/repo/flathub.flatpakrepo
 
-- name: Installing Flatpaks
+- name: Installing Flatpaks (General)
   community.general.flatpak:
     name: "{{ flatpak_packages }}"
     state: present
+
+- name: Installing Flatpaks (Gaming)
+  community.general.flatpak:
+    name: "{{ flatpak_gaming_packages }}"
+    state: present
+  when: gaming

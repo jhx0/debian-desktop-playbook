@@ -6,11 +6,11 @@ Adapted for **Debian 12** (**Bookworm**)
 ## Features:
 - **Xfce** desktop by default.
 - Many additional packages from the official repos (**LibreOffice**, **LaTex**, **Firefox-ESR**, **Docker** etc.)
-- **Flatpaks** installed by default: **Discord**, **VSCodium**, **Element**, **Brave**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
+- (**Optional**) **Flatpaks**: **Discord**, **VSCodium**, **Element**, **Brave**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
 - External applications available: **Virtualbox**, **Mullvad (Client)**
-- Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
+- (**Optional**) Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
-- Virtualization packages (**libvirt/QEMU/Virt-Manager**)
+- (**Optional**) Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - Almost everything comes from the main repos!
 
 ## Note on external applications:

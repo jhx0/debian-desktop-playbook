@@ -104,9 +104,7 @@ software_packages:
   - handbrake
   - command-not-found
   - firefox-esr
-  - podman
   - tor
-  - squid
   - x265
   - x264
   - lame
@@ -114,7 +112,6 @@ software_packages:
   - iptables-persistent
   - bridge-utils
   - unrar
-  - silversearcher-ag
   - filezilla
   - rofi
   - conky

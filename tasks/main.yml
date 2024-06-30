@@ -52,13 +52,15 @@
 
 - import_tasks: tasks/virt.yml
   tags: virt
+  when: use_kvm
 
 - import_tasks: tasks/virtualbox.yml
   tags: virtualbox
-  when: external
+  when: use_vbox
 
 - import_tasks: tasks/gaming.yml
   tags: gaming
+  when: gaming
 
 - import_tasks: tasks/mullvad.yml
   tags: mullvad
@@ -70,6 +72,7 @@
 
 - import_tasks: tasks/flatpak.yml
   tags: flatpak
+  when: flatpak
 
 - import_tasks: tasks/reboot.yml
   tags: reboot
