@@ -23,4 +23,8 @@
 
 - name: Installing Minecraft
   apt:
-    deb: https://launcher.mojang.com/download/Minecraft.deb
+    deb: "{{ minecraft }}"
+
+- name: Installing GZDoom
+  apt:
+    deb: "{{ gzdoom }}"

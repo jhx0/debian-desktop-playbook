@@ -17,3 +17,6 @@ wine_packages:
   - libwine
   - fonts-wine
   - winetricks
+
+gzdoom: 'https://github.com/ZDoom/gzdoom/releases/download/g4.12.2/gzdoom_4.12.2_amd64.deb'
+minecraft: 'https://launcher.mojang.com/download/Minecraft.deb'

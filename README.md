@@ -79,6 +79,7 @@ xorg
 xfce
 packages
 fontconfig
+fonts
 gaming
 flatpak (Multiple Flatpaks installed)
 virtualbox (external)

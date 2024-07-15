@@ -50,6 +50,9 @@
 - import_tasks: tasks/fontconfig.yml
   tags: fontconfig
 
+- import_tasks: tasks/fonts.yml
+  tags: fonts
+
 - import_tasks: tasks/virt.yml
   tags: virt
   when: use_kvm

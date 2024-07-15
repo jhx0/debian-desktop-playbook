@@ -1,0 +1,64 @@
+- name: Creating .fonts directory
+  ansible.builtin.file:
+    path: /home/{{ user_name }}/.fonts
+    state: directory
+    mode: '0755'
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Downloading Hack Nerd Font
+  ansible.builtin.get_url:
+    url: "{{ hack_font }}"
+    dest: /home/{{ user_name }}/.fonts/hack.zip
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Downloading Ubuntu Nerd Font
+  ansible.builtin.get_url:
+    url: "{{ ubuntu_font }}"
+    dest: /home/{{ user_name }}/.fonts/ubuntu.zip
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Unarchive Ubuntu Nerd Font archive
+  ansible.builtin.unarchive:
+    src: /home/{{ user_name }}/.fonts/ubuntu.zip
+    dest: /home/{{ user_name }}/.fonts
+    remote_src: yes
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Unarchive Hack Nerd Font archive
+  ansible.builtin.unarchive:
+    src: /home/{{ user_name }}/.fonts/hack.zip
+    dest: /home/{{ user_name }}/.fonts
+    remote_src: yes
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Remove leftover files (1/2)
+  find:
+    paths: /home/{{ user_name }}/.fonts
+    file_type: file
+    excludes: 
+      - "*.ttf"
+  register: found_files
+
+- name: Remove leftover files (2/2)
+  file:
+    path: "{{ item.path }}"
+    state: absent
+  with_items: "{{ found_files['files'] }}"
+  no_log: true
+
+- name: Building font cache
+  shell: fc-cache -fv
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+  no_log: true

@@ -125,3 +125,5 @@ software_packages:
   - pipx
   - php-cli
   - groff
+  - neofetch
+  - mpv
