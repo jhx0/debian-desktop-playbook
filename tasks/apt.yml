@@ -10,11 +10,3 @@
 
 - name: Update APT cache
   meta: flush_handlers
-
-- name: Copying over update skript
-  copy:
-    src: files/apt/update
-    dest: /etc/cron.daily/
-    owner: root
-    group: root
-    mode: '0755'

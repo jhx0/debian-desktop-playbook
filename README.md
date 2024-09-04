@@ -1,17 +1,18 @@
 # debian-desktop-playbook
-A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **Xfce** and many additional packages.
+A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** (**Xfce** also available) and many additional packages.
 
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **Xfce** desktop by default.
-- Many additional packages from the official repos (**LibreOffice**, **LaTex**, **Firefox-ESR**, **Docker** etc.)
-- (**Optional**) **Flatpaks**: **Discord**, **VSCodium**, **Element**, **Brave**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
+- **KDE** desktop by default enabled and **Xfce** available.
+- Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, **Docker** etc.)
+- (**Optional**) **Flatpaks**: **Discord**, **VSCodium**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
 - External applications available: **Virtualbox**, **Mullvad (Client)**
 - (**Optional**) Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - (**Optional**) Virtualization packages (**libvirt/QEMU/Virt-Manager**)
-- Almost everything comes from the main repos!
+- Also installs **PowerShell**
+- Most software comes from the main repos!
 
 ## Note on external applications:
 External applications are only installed when the "external" variable is set to true.   
@@ -22,7 +23,7 @@ I made the decision to make these not be installed by default since I personally
 ![xfce](https://github.com/jhx0/debian-desktop-playbook/assets/37046652/f1cdcc0e-d681-47eb-9587-3f80acd9cbbb)
 
 There is nothing big to see here. I like the defaults and don't really change much of anything. YMMV. 😎   
-(Default **Xfce** desktop pictured here - if you must have a screenshot)
+(**Xfce** desktop pictured here - if you must have a screenshot)
 
 ## Hint
 This Playbook mainly servers my own needs - feel free to adapt it to yours!
@@ -76,6 +77,7 @@ grub
 fstrim
 fail2ban
 xorg
+kde
 xfce
 packages
 fontconfig

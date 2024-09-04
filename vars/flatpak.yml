@@ -2,13 +2,11 @@
 flatpak_packages:
   - org.signal.Signal
   - im.riot.Riot
-  - com.brave.Browser
   - com.vscodium.codium
   - org.raspberrypi.rpi-imager
   - org.jdownloader.JDownloader
   - com.rafaelmardojai.Blanket
   - com.discordapp.Discord
-  - org.mozilla.firefox
 
 flatpak_gaming_packages:
   - net.supertuxkart.SuperTuxKart

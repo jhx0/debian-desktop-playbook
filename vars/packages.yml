@@ -72,9 +72,6 @@ software_packages:
   - fortunes-bofh-excuses
   - inxi
   - clamav
-  - texlive-latex-base
-  - texlive-latex-recommended
-  - texlive-latex-extra
   - pandoc
   - mediainfo
   - sshfs
@@ -127,3 +124,4 @@ software_packages:
   - groff
   - neofetch
   - mpv
+  - flameshot
