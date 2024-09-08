@@ -7,7 +7,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - **KDE** desktop by default enabled and **Xfce** available.
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, **Docker** etc.)
 - (**Optional**) **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
-- External applications available: **Virtualbox**, **Mullvad (Client)**, **VSCode**
+- External applications available: **Virtualbox**, **Mullvad (Client)**, **VSCode**, **Brave**
 - (**Optional**) Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - (**Optional**) Virtualization packages (**libvirt/QEMU/Virt-Manager**)
@@ -91,6 +91,7 @@ firewall
 liquorix (external)
 flatpak (Multiple Flatpaks installed)
 virtualbox (external)
+brave (external)
 mullvad (external)
 powershell (external)
 reboot

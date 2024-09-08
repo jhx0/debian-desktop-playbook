@@ -66,6 +66,10 @@
   tags: virtualbox
   when: use_vbox
 
+- import_tasks: tasks/brave.yml
+  tags: brave
+  when: external
+
 - import_tasks: tasks/gaming.yml
   tags: gaming
   when: gaming
