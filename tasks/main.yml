@@ -78,9 +78,24 @@
   tags: powershell
   when: external
 
+- import_tasks: tasks/vscode.yml
+  tags: vscode
+  when: external
+
 - import_tasks: tasks/flatpak.yml
   tags: flatpak
   when: flatpak
+
+- import_tasks: tasks/liquorix.yml
+  tags: liquorix
+  when: use_liquorix
+
+- import_tasks: tasks/pipx.yml
+  tags: pipx
+
+- import_tasks: tasks/firewall.yml
+  tags: firewall
+  when: use_firewall
 
 - import_tasks: tasks/reboot.yml
   tags: reboot

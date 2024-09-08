@@ -125,3 +125,15 @@ software_packages:
   - neofetch
   - mpv
   - flameshot
+  - bat
+  - nala
+  - exa
+  - age
+  - lsd
+  - newsboat
+  - debian-faq 
+  - debian-handbook 
+  - harden-doc 
+  - apt-doc
+  - debian-reference
+  - fzf

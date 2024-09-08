@@ -1,0 +1,24 @@
+---
+- name: Installing Firewall (UFW)
+  apt:
+    name: ufw
+    state: present
+
+- name: Enabling Firewall (UFW)
+  community.general.ufw:
+    state: enabled
+
+- name: Allow outgoing connections (UFW)
+  community.general.ufw:
+    direction: out
+    rule: allow
+
+- name: Deny incoming connections (UFW)
+  community.general.ufw:
+    direction: in
+    rule: deny
+
+- name: Allow SSH access (UFW)
+  community.general.ufw:
+    rule: allow
+    port: "{{ ssh_port }}"

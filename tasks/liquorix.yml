@@ -1,0 +1,2 @@
+- name: Installing Liquorix Linux Kernel
+  ansible.builtin.shell: curl -s 'https://liquorix.net/install-liquorix.sh' | bash

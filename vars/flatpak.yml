@@ -2,7 +2,6 @@
 flatpak_packages:
   - org.signal.Signal
   - im.riot.Riot
-  - com.vscodium.codium
   - org.raspberrypi.rpi-imager
   - org.jdownloader.JDownloader
   - com.rafaelmardojai.Blanket
@@ -10,3 +9,6 @@ flatpak_packages:
 
 flatpak_gaming_packages:
   - net.supertuxkart.SuperTuxKart
+  - net.veloren.airshipper
+  - org.xonotic.Xonotic
+  - com.play0ad.zeroad

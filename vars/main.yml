@@ -14,10 +14,12 @@ ntp_fallback_servers: 0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.
 use_kde: true
 use_xfce: false
 
-external: true
-gaming: true
 use_kvm: true
 use_vbox: true
+use_liquorix: true
+use_firewall: true
 flatpak: true
+external: true
+gaming: true
 
 reboot: false

@@ -1,0 +1,13 @@
+- name: Installing Ansible via pipx
+  community.general.pipx:
+    name: ansible
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
+
+- name: Installing Yewtube via pipx
+  community.general.pipx:
+    name: yewtube
+  become: true
+  become_user: "{{ user_name }}"
+  become_method: su
