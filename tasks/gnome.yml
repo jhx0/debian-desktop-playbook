@@ -1,0 +1,5 @@
+---
+- name: Installing Gnome
+  apt:
+    name: "{{ gnome_packages }}"
+    state: present
