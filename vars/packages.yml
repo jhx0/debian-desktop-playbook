@@ -122,7 +122,6 @@ software_packages:
   - groff
   - neofetch
   - mpv
-  - flameshot
   - bat
   - nala
   - exa
