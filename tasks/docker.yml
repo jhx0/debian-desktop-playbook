@@ -1,0 +1,41 @@
+---
+- name: Installing ca-certificates
+  apt:
+    name: ca-certificates
+    state: present
+
+- name: Installing curl
+  apt:
+    name: curl
+    state: present
+
+- name: Add Docker key
+  shell: sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+
+- name: Adding Docker repository
+  copy:
+    src: files/docker/docker.list
+    dest: /etc/apt/sources.list.d
+    owner: root
+    group: root
+    mode: '0644'
+  notify: update apt cache
+
+- name: Update APT cache
+  meta: flush_handlers
+
+- name: Installing Docker (And related packages)
+  apt:
+    name:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+      - docker-buildx-plugin
+      - docker-compose-plugin
+    state: present
+
+- name: Adding "{{ user_name }}" to docker group
+  user:
+    name: "{{ user_name }}"
+    groups: docker
+    append: yes
