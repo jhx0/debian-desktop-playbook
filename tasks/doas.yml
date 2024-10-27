@@ -1,0 +1,11 @@
+---
+- name: Installing doas (opendoas)
+  apt:
+    name: opendoas
+    state: present
+
+- name: Copying config file (opendoas)
+  template: 
+    src: doas/doas.conf.j2 
+    dest: /etc/doas.conf
+    mode: 0640

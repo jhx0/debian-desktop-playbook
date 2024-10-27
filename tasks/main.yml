@@ -20,6 +20,9 @@
 - import_tasks: tasks/sudo.yml
   tags: sudo
 
+- import_tasks: tasks/doas.yml
+  tags: doas
+
 - import_tasks: tasks/ntp.yml
   tags: ntp
 

@@ -6,6 +6,7 @@ Adapted for **Debian 12** (**Bookworm**)
 ## Features:
 - **KDE** desktop by default enabled and **Xfce** / **Gnome** available.
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
+- Installs and configures **sudo** and **doas** (**opendoas**)
 - **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
 - External applications available: **Docker**, **Virtualbox**, **Mullvad (Client)**, **VSCode**, **Brave**, **VeraCrypt**
 - Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
@@ -73,6 +74,7 @@ dotfiles
 postfix
 sshd
 sudo
+doas
 groups
 ntp
 sysctl
