@@ -21,7 +21,7 @@
 
 - name: Installing Virtualbox
   apt:
-    name: virtualbox-7.0
+    name: virtualbox-7.1
     state: present
 
 - name: Adding "{{ user_name }}" to vboxusers group
