@@ -51,7 +51,7 @@
 
 - import_tasks: tasks/gnome.yml
   tags: gnome
-  when: use_kde
+  when: use_gnome
 
 - import_tasks: tasks/packages.yml
   tags: packages
