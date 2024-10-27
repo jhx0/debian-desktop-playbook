@@ -33,3 +33,10 @@ GRUB_DISABLE_RECOVERY="true"
 
 # Enable os-prober
 GRUB_DISABLE_OS_PROBER=false
+
+# Save kernel selection
+GRUB_SAVEDEFAULT=true
+GRUB_DEFAULT=saved
+
+# Disable sub menu
+GRUB_DISABLE_SUBMENU=y
