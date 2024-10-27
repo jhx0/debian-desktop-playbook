@@ -14,3 +14,4 @@ flatpak_gaming_packages:
   - org.xonotic.Xonotic
   - com.play0ad.zeroad
   - com.etlegacy.ETLegacy
+  - net.minetest.Minetest
