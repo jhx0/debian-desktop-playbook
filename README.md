@@ -6,13 +6,14 @@ Adapted for **Debian 12** (**Bookworm**)
 ## Features:
 - **KDE** desktop by default enabled and **Xfce** / **Gnome** available.
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
-- (**Optional**) **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
+- **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
 - External applications available: **Docker**, **Virtualbox**, **Mullvad (Client)**, **VSCode**, **Brave**, **VeraCrypt**
-- (**Optional**) Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
+- Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
-- (**Optional**) Virtualization packages (**libvirt/QEMU/Virt-Manager**)
+- Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - Also installs **PowerShell**
-- (**Optional**) Install **Liquorix** Linux Kernel
+- Install the **Liquorix** Linux Kernel
+- Install the **XanMod** Linux Kernel (**LTS**)
 - (**Optional**) Installs and sets up **UFW** (**Deny** incoming, **Allow** outgoing, allow **SSH** access)
 - Most software comes from the main repos!
 
@@ -91,6 +92,7 @@ pipx
 firewall
 docker
 liquorix (external)
+xanmod (external)
 veracrypt (external)
 flatpak (Multiple Flatpaks installed)
 virtualbox (external)

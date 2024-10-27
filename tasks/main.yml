@@ -98,6 +98,10 @@
   tags: liquorix
   when: use_liquorix
 
+- import_tasks: tasks/xanmod.yml
+  tags: xanmod
+  when: use_xanmod
+
 - import_tasks: tasks/pipx.yml
   tags: pipx
 
