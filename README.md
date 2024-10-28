@@ -4,7 +4,7 @@ A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop sys
 Adapted for **Debian 12** (**Bookworm**)
 
 ## Features:
-- **KDE** desktop by default enabled and **Xfce** / **Gnome** available.
+- **KDE** desktop by default enabled and **Xfce** (**Task**) available.
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
 - Installs and configures **sudo** and **doas** (**opendoas**)
 - **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
