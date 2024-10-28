@@ -16,27 +16,9 @@
     name: "{{ user_name }}"
     groups: wireshark
     append: yes
-  
-- name: Adding "{{ user_name }}" to docker group
-  user:
-    name: "{{ user_name }}"
-    groups: docker
-    append: yes
 
 - name: Update command-not-found database
   shell: update-command-not-found
 
 - name: Update plocate database
   shell: /etc/cron.daily/plocate
-
-- name: Disabling Service (Docker)
-  ansible.builtin.systemd_service:
-    name: docker
-    enabled: false
-    masked: no
-
-- name: Disabling Service (Containerd)
-  ansible.builtin.systemd_service:
-    name: containerd
-    enabled: false
-    masked: no

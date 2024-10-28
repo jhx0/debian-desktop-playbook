@@ -1,5 +1,5 @@
 # debian-desktop-playbook
-A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** (**Xfce** and **Gnome** also available) and many additional packages.
+A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** (**Xfce** is also available) and many additional packages.
 
 Adapted for **Debian 12** (**Bookworm**)
 
@@ -84,7 +84,6 @@ fail2ban
 xorg
 kde
 xfce
-gnome
 packages
 fontconfig
 fonts

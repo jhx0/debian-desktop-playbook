@@ -11,7 +11,6 @@
     - vars/xorg.yml
     - vars/kde.yml
     - vars/xfce.yml
-    - vars/gnome.yml
     - vars/packages.yml
     - vars/gaming.yml
     - vars/virt.yml
