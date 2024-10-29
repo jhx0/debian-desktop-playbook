@@ -134,3 +134,4 @@ software_packages:
   - apt-doc
   - debian-reference
   - fzf
+  - preload
