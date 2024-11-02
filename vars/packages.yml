@@ -135,3 +135,4 @@ software_packages:
   - debian-reference
   - fzf
   - preload
+  - diceware
