@@ -137,3 +137,4 @@ software_packages:
   - preload
   - diceware
   - synaptic
+  - gparted
