@@ -136,3 +136,4 @@ software_packages:
   - fzf
   - preload
   - diceware
+  - synaptic
