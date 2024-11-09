@@ -1,0 +1,13 @@
+---
+- name: Downloading Hugo
+  shell: wget 'https://github.com/gohugoio/hugo/releases/download/v0.138.0/hugo_0.138.0_linux-amd64.deb' -O /tmp/hugo.deb
+
+- name: Installing Hugo
+  ansible.builtin.apt:
+    deb: /tmp/hugo.deb
+
+- name: Remove Hugo .deb package
+  ansible.builtin.file:
+    path: /tmp/hugo.deb
+    state: absent
+

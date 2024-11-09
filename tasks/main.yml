@@ -89,6 +89,10 @@
   tags: vscode
   when: external
 
+- import_tasks: tasks/hugo.yml
+  tags: hugo
+  when: external
+
 - import_tasks: tasks/flatpak.yml
   tags: flatpak
   when: flatpak
