@@ -75,7 +75,7 @@ software_packages:
   - pandoc
   - mediainfo
   - sshfs
-  - stress
+  - stress-ng
   - libarchive-tools
   - vlc
   - keepassxc
