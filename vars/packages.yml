@@ -108,7 +108,6 @@ software_packages:
   - bridge-utils
   - unrar
   - filezilla
-  - rofi
   - conky
   - fortunes-debian-hints
   - lynis
@@ -124,8 +123,6 @@ software_packages:
   - mpv
   - bat
   - nala
-  - exa
-  - age
   - lsd
   - newsboat
   - debian-faq 
