@@ -85,8 +85,8 @@
   tags: powershell
   when: external
 
-- import_tasks: tasks/vscode.yml
-  tags: vscode
+- import_tasks: tasks/vscodium.yml
+  tags: vscodium
   when: external
 
 - import_tasks: tasks/hugo.yml

@@ -8,7 +8,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
 - Installs and configures **sudo** and **doas** (**opendoas**)
 - **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
-- External applications available: **Docker**, **Virtualbox**, **Mullvad (Client)**, **VSCode**, **Brave**, **VeraCrypt**
+- External applications available: **Docker**, **Virtualbox**, **Mullvad (Client)**, **VSCodium**, **Brave**, **VeraCrypt**
 - Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
