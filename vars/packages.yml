@@ -138,3 +138,4 @@ software_packages:
   - tealdeer
   - network-manager-openvpn
   - fping
+  - masscan
