@@ -139,3 +139,4 @@ software_packages:
   - network-manager-openvpn
   - fping
   - masscan
+  - fish

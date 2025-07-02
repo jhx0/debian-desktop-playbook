@@ -1,3 +1,4 @@
 ---
 kde_packages:
   - task-kde-desktop
+  - yakuake
