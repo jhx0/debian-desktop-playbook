@@ -140,3 +140,6 @@ software_packages:
   - fping
   - masscan
   - fish
+  - speedtest-cli
+  - duf
+
