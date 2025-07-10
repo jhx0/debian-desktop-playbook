@@ -101,6 +101,7 @@ virtualbox (external)
 brave (external)
 mullvad (external)
 powershell (external)
+mono (external: dotnet sdk)
 reboot
 ```
 
