@@ -13,6 +13,7 @@ Adapted for **Debian 12** (**Bookworm**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - Also installs **PowerShell**
+- Installs **Mono** / **.NET SDK**
 - Install the **Liquorix** Linux Kernel
 - Install the **XanMod** Linux Kernel (**LTS**)
 - (**Optional**) Installs and sets up **UFW** (**Deny** incoming, **Allow** outgoing, allow **SSH** access)

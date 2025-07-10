@@ -1,0 +1,20 @@
+---
+- name: Downloading Microsoft Key/Repo .deb
+  shell: wget 'https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb' -O /tmp/microsoft.deb
+
+- name: Installing Microsoft Key/Repo
+  ansible.builtin.apt:
+    deb: /tmp/microsoft.deb
+
+- name: Update APT cache
+  meta: flush_handlers
+
+- name: Remove Microsoft Key/Repo .deb
+  ansible.builtin.file:
+    path: /tmp/microsoft.deb
+    state: absent
+
+- name: Installing Mono / SDK packages
+  apt:
+    name: "{{ mono_packages }}"
+    state: present
