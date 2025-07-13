@@ -5,6 +5,7 @@
 - name: Installing Microsoft Key/Repo
   ansible.builtin.apt:
     deb: /tmp/microsoft.deb
+  notify: update apt cache
 
 - name: Update APT cache
   meta: flush_handlers
