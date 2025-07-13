@@ -142,4 +142,4 @@ software_packages:
   - fish
   - speedtest-cli
   - duf
-
+  - neovim
