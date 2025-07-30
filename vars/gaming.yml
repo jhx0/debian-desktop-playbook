@@ -3,6 +3,7 @@ emulator_packages:
   - mednafen
   - mednaffe
   - mupen64plus-qt
+  - dosbox
 
 steam_packages:
   - steam-installer
