@@ -114,9 +114,11 @@
 
 - import_tasks: tasks/docker.yml
   tags: docker
+  when: docker
 
 - import_tasks: tasks/mono.yml
   tags: mono
+  when: mono
 
 - import_tasks: tasks/firewall.yml
   tags: firewall
