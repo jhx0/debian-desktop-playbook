@@ -26,10 +26,10 @@ flatpak: true
 
 external: true
 
-gaming: true
+gaming: false
 
 mono: false
 
-docker: true
+docker: false
 
 reboot: false
