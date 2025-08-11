@@ -1,7 +1,7 @@
 # debian-desktop-playbook
 A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** (**Xfce** is also available) and many additional packages.
 
-Adapted for **Debian 12** (**Bookworm**)
+Adapted for **Debian 13** (**Trixie**)
 
 ## Features:
 - **KDE** desktop by default enabled and **Xfce** (**Task**) available.
@@ -22,10 +22,10 @@ Keep that in mind when using this **Playbook**.
 I made the decision to make these not be installed by default since I personally perefer things from the official repo or installed as a **Flatpak**.
 
 ## Screenshot:
-![xfce](https://github.com/jhx0/debian-desktop-playbook/assets/37046652/f1cdcc0e-d681-47eb-9587-3f80acd9cbbb)
+<img width="1920" height="1080" alt="debian-kde-desktop" src="https://github.com/user-attachments/assets/4f62731d-39e2-4ad9-93fa-20ac868351f4" />
 
 There is nothing big to see here. I like the defaults and don't really change much of anything. YMMV. 😎   
-(**Xfce** desktop pictured here - if you must have a screenshot)
+(Stock **KDE** desktop pictured here - if you must have a screenshot)
 
 ## Hint
 This Playbook mainly servers my own needs - feel free to adapt it to yours!
