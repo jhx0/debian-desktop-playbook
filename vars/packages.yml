@@ -50,7 +50,7 @@ software_packages:
   - cifs-utils
   - smartmontools
   - ncdu
-  - freerdp2-x11
+  - freerdp3-x11
   - fortune-mod
   - imagemagick
   - anacron
@@ -85,7 +85,7 @@ software_packages:
   - apache2
   - php
   - libapache2-mod-php
-  - wireshark-qt
+  - wireshark
   - amd64-microcode
   - intel-microcode
   - mingw-w64
@@ -108,7 +108,7 @@ software_packages:
   - bridge-utils
   - unrar
   - filezilla
-  - conky
+  - conky-all
   - fortunes-debian-hints
   - lynis
   - sox
@@ -118,7 +118,7 @@ software_packages:
   - pipx
   - php-cli
   - groff
-  - neofetch
+  - fastfetch
   - mpv
   - bat
   - nala
@@ -126,7 +126,6 @@ software_packages:
   - newsboat
   - debian-faq 
   - debian-handbook 
-  - harden-doc 
   - apt-doc
   - debian-reference
   - fzf

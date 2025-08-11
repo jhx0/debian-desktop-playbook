@@ -21,10 +21,6 @@
     name: "{{ steam_packages }}"
     state: present
 
-- name: Installing Minecraft
-  apt:
-    deb: "{{ minecraft }}"
-
 - name: Installing GZDoom
   apt:
     deb: "{{ gzdoom }}"

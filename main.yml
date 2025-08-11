@@ -15,7 +15,7 @@
     - vars/gaming.yml
     - vars/virt.yml
     - vars/flatpak.yml
-    - vars/mono.yml
+    - vars/docker.yml
 
   handlers:
     - name: Include handlers

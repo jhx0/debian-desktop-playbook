@@ -15,3 +15,4 @@ flatpak_gaming_packages:
   - com.play0ad.zeroad
   - com.etlegacy.ETLegacy
   - org.luanti.luanti
+  - com.mojang.Minecraft

@@ -65,10 +65,6 @@
   tags: virt
   when: use_kvm
 
-- import_tasks: tasks/virtualbox.yml
-  tags: virtualbox
-  when: use_vbox
-
 - import_tasks: tasks/brave.yml
   tags: brave
   when: external
@@ -79,10 +75,6 @@
 
 - import_tasks: tasks/mullvad.yml
   tags: mullvad
-  when: external
-
-- import_tasks: tasks/powershell.yml
-  tags: powershell
   when: external
 
 - import_tasks: tasks/vscodium.yml
@@ -97,28 +89,12 @@
   tags: flatpak
   when: flatpak
 
-- import_tasks: tasks/liquorix.yml
-  tags: liquorix
-  when: use_liquorix
-
-- import_tasks: tasks/xanmod.yml
-  tags: xanmod
-  when: use_xanmod
-
 - import_tasks: tasks/pipx.yml
   tags: pipx
-
-- import_tasks: tasks/veracrypt.yml
-  tags: veracrypt
-  when: external
 
 - import_tasks: tasks/docker.yml
   tags: docker
   when: docker
-
-- import_tasks: tasks/mono.yml
-  tags: mono
-  when: mono
 
 - import_tasks: tasks/firewall.yml
   tags: firewall
