@@ -8,7 +8,7 @@ Adapted for **Debian 13** (**Trixie**)
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
 - Installs and configures **sudo** and **doas** (**opendoas**)
 - **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
-- External applications available: **Mullvad (Client)**, **VSCodium**, **Brave**
+- External applications available: **VSCodium**, **Brave**
 - Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Installs **Docker**
@@ -92,7 +92,6 @@ firewall
 docker
 flatpak (Multiple Flatpaks installed)
 brave (external)
-mullvad (external)
 reboot
 ```
 

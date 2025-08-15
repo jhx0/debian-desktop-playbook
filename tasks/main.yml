@@ -73,10 +73,6 @@
   tags: gaming
   when: gaming
 
-- import_tasks: tasks/mullvad.yml
-  tags: mullvad
-  when: external
-
 - import_tasks: tasks/vscodium.yml
   tags: vscodium
   when: external
