@@ -13,6 +13,7 @@ Adapted for **Debian 13** (**Trixie**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Installs **Docker**, **Podman**
 - Deploys **LXC**
+- Also installs **Distrobox**
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - (**Optional**) Installs and sets up **UFW** (**Deny** incoming, **Allow** outgoing, allow **SSH** access)
 - Most software comes from the main repos!
@@ -93,6 +94,7 @@ firewall
 docker
 podman
 lxc
+distrobox
 flatpak (Multiple Flatpaks installed)
 brave (external)
 reboot

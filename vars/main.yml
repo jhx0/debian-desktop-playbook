@@ -22,5 +22,6 @@ use_firewall: false
 docker: false
 podman: true
 lxc: true
+distrobox: true
 
 reboot: false

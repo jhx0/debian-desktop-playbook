@@ -1,0 +1,5 @@
+---
+- name: Installing Distrobox
+  apt:
+    name: distrobox
+    state: present
