@@ -17,6 +17,7 @@
     - vars/flatpak.yml
     - vars/docker.yml
     - vars/podman.yml
+    - vars/lxc.yml
 
   handlers:
     - name: Include handlers

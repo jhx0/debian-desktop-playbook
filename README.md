@@ -12,6 +12,7 @@ Adapted for **Debian 13** (**Trixie**)
 - Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Installs **Docker**, **Podman**
+- Deploys **LXC**
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - (**Optional**) Installs and sets up **UFW** (**Deny** incoming, **Allow** outgoing, allow **SSH** access)
 - Most software comes from the main repos!
@@ -91,6 +92,7 @@ pipx
 firewall
 docker
 podman
+lxc
 flatpak (Multiple Flatpaks installed)
 brave (external)
 reboot

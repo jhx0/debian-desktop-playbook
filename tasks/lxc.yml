@@ -1,0 +1,29 @@
+---
+- name: Installing LXC
+  apt:
+    name: "{{ lxc_packages }}"
+    state: present
+
+- name: Copy LXC config
+  copy:
+    src: files/lxc/default.conf
+    dest: /etc/lxc
+    owner: root
+    group: root
+    mode: 0644
+
+- name: Copy subuid config
+  copy:
+    src: files/lxc/subuid
+    dest: /etc
+    owner: root
+    group: root
+    mode: 0644
+
+- name: Copy subgid config
+  copy:
+    src: files/lxc/subgid
+    dest: /etc
+    owner: root
+    group: root
+    mode: 0644

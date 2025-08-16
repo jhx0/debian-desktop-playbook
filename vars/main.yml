@@ -21,5 +21,6 @@ gaming: true
 use_firewall: false
 docker: false
 podman: true
+lxc: true
 
 reboot: false
