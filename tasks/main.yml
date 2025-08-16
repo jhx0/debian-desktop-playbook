@@ -92,6 +92,10 @@
   tags: docker
   when: docker
 
+- import_tasks: tasks/podman.yml
+  tags: podman
+  when: podman
+
 - import_tasks: tasks/firewall.yml
   tags: firewall
   when: use_firewall

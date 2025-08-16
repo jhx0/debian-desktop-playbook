@@ -1,0 +1,13 @@
+---
+- name: Installing Podman
+  apt:
+    name: "{{ podman_packages }}"
+    state: present
+
+- name: Copy registry config
+  copy:
+    src: files/podman/registries.conf
+    dest: /etc/containers
+    owner: root
+    group: root
+    mode: 0644

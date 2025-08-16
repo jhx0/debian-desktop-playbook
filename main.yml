@@ -16,6 +16,7 @@
     - vars/virt.yml
     - vars/flatpak.yml
     - vars/docker.yml
+    - vars/podman.yml
 
   handlers:
     - name: Include handlers

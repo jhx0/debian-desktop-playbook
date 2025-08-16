@@ -20,5 +20,6 @@ external: true
 gaming: true
 use_firewall: false
 docker: false
+podman: true
 
 reboot: false

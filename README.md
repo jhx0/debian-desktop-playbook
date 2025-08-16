@@ -11,7 +11,7 @@ Adapted for **Debian 13** (**Trixie**)
 - External applications available: **VSCodium**, **Brave**
 - Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
-- Installs **Docker**
+- Installs **Docker**, **Podman**
 - Virtualization packages (**libvirt/QEMU/Virt-Manager**)
 - (**Optional**) Installs and sets up **UFW** (**Deny** incoming, **Allow** outgoing, allow **SSH** access)
 - Most software comes from the main repos!
@@ -90,6 +90,7 @@ vscode
 pipx
 firewall
 docker
+podman
 flatpak (Multiple Flatpaks installed)
 brave (external)
 reboot
