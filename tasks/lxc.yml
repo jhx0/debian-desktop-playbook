@@ -12,18 +12,14 @@
     group: root
     mode: 0644
 
-- name: Copy subuid config
-  copy:
-    src: files/lxc/subuid
-    dest: /etc
-    owner: root
-    group: root
+- name: Copying subuid file (LXC)
+  template: 
+    src: lxc/subuid.j2 
+    dest: /etc/subuid
     mode: 0644
 
-- name: Copy subgid config
-  copy:
-    src: files/lxc/subgid
-    dest: /etc
-    owner: root
-    group: root
+- name: Copying subgid file (LXC)
+  template: 
+    src: lxc/subgid.j2 
+    dest: /etc/subgid
     mode: 0644
