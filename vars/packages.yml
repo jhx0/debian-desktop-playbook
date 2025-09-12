@@ -147,3 +147,6 @@ software_packages:
   - verse
   - eza
   - sent
+  - nvme-cli
+  - lsscsi
+
