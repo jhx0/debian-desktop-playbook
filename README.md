@@ -4,7 +4,7 @@ A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop sys
 Adapted for **Debian 13** (**Trixie**)
 
 ## Features:
-- **KDE** desktop by default enabled and **Xfce** (**Task**) available.
+- **KDE** desktop by default. **Xfce** and **Gnome** (**Task**) available.
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
 - Installs and configures **sudo** and **doas** (**opendoas**)
 - **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
@@ -84,6 +84,7 @@ fail2ban
 xorg
 kde
 xfce
+gnome
 packages
 fontconfig
 fonts
