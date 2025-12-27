@@ -7,6 +7,7 @@ flatpak_packages:
   - com.rafaelmardojai.Blanket
   - com.discordapp.Discord
   - io.github.thetumultuousunicornofdarkness.cpu-x
+  - fi.skyjake.Lagrange
 
 flatpak_gaming_packages:
   - net.supertuxkart.SuperTuxKart
