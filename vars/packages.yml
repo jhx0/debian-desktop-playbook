@@ -149,4 +149,9 @@ software_packages:
   - sent
   - nvme-cli
   - lsscsi
+  - debsums
+  - apt-listbugs
+  - devscripts
+  - wajig
+  - configure-debian 
 
