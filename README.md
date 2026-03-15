@@ -14,7 +14,7 @@ Adapted for **Debian 13** (**Trixie**)
 - Installs **Docker**, **Podman**
 - Deploys **LXC**
 - Also installs **Distrobox**
-- Virtualization packages (**libvirt/QEMU/Virt-Manager**)
+- Virtualization packages (**libvirt/QEMU/Virt-Manager**, **VirtualBox**)
 - (**Optional**) Installs and sets up **UFW** (**Deny** incoming, **Allow** outgoing, allow **SSH** access)
 - Most software comes from the main repos!
 
@@ -95,6 +95,7 @@ firewall
 docker
 podman
 lxc
+virtualbox
 distrobox
 flatpak (Multiple Flatpaks installed)
 brave (external)
