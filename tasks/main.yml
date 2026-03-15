@@ -104,6 +104,10 @@
   tags: lxc
   when: lxc
 
+- import_tasks: tasks/virtualbox.yml
+  tags: virtualbox
+  when: virtualbox
+
 - import_tasks: tasks/distrobox.yml
   tags: distrobox
   when: distrobox

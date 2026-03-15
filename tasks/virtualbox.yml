@@ -1,0 +1,25 @@
+---
+- name: Installing wget
+  apt:
+    name: wget
+    state: present
+
+- name: Add VirtualBox key
+  shell: wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | gpg --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg --dearmor
+
+- name: Adding VirtualBox repository
+  copy:
+    src: files/virtualbox/virtualbox.list
+    dest: /etc/apt/sources.list.d
+    owner: root
+    group: root
+    mode: '0644'
+  notify: update apt cache
+
+- name: Update APT cache
+  meta: flush_handlers
+
+- name: Installing VirtualBox
+  apt:
+    name: virtualbox-7.2
+    state: present

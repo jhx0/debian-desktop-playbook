@@ -20,9 +20,10 @@ flatpak: true
 external: true
 gaming: true
 use_firewall: false
-docker: false
+docker: true
 podman: true
 lxc: true
+virtualbox: true
 distrobox: true
 
 reboot: false
