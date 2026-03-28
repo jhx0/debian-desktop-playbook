@@ -48,7 +48,7 @@
     value: Native
     vtype: select
 
-- name: Setting up fontconfig ((4/3) debconf)
+- name: Setting up fontconfig ((4/4) debconf)
   debconf:
     name: fontconfig-config
     question: fontconfig-config/subpixel_rendering
