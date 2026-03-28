@@ -1,6 +1,9 @@
 ---
 - name: Downloading Hugo
-  shell: wget 'https://github.com/gohugoio/hugo/releases/download/v0.148.2/hugo_0.148.2_linux-amd64.deb' -O /tmp/hugo.deb
+  ansible.builtin.get_url:
+    url: https://github.com/gohugoio/hugo/releases/download/v0.159.1/hugo_extended_0.159.1_linux-amd64.deb
+    dest: /tmp/hugo.deb
+    mode: '0440'
 
 - name: Installing Hugo
   ansible.builtin.apt:
