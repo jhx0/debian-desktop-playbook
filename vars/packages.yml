@@ -154,4 +154,4 @@ software_packages:
   - devscripts
   - wajig
   - configure-debian 
-
+  - chromium
