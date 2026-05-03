@@ -1,0 +1,4 @@
+---
+- name: Installing Topgrade
+  apt:
+    deb: "{{ topgrade }}"

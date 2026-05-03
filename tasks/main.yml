@@ -108,6 +108,9 @@
   tags: firewall
   when: use_firewall
 
+- import_tasks: tasks/topgrade.yml
+  tags: topgrade
+
 - import_tasks: tasks/reboot.yml
   tags: reboot
   when: reboot

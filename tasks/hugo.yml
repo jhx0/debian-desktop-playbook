@@ -1,16 +1,4 @@
 ---
-- name: Downloading Hugo
-  ansible.builtin.get_url:
-    url: https://github.com/gohugoio/hugo/releases/download/v0.159.1/hugo_extended_0.159.1_linux-amd64.deb
-    dest: /tmp/hugo.deb
-    mode: '0440'
-
 - name: Installing Hugo
-  ansible.builtin.apt:
-    deb: /tmp/hugo.deb
-
-- name: Remove Hugo .deb package
-  ansible.builtin.file:
-    path: /tmp/hugo.deb
-    state: absent
-
+  apt:
+    deb: "{{ hugo }}"

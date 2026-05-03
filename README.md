@@ -93,6 +93,7 @@ firewall
 docker
 podman
 lxc
+topgrade
 virtualbox
 distrobox
 flatpak (Multiple Flatpaks installed)

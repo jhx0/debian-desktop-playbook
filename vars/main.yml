@@ -1,6 +1,9 @@
 ---
 ansible_become_flags: "-"
 
+topgrade: 'https://github.com/topgrade-rs/topgrade/releases/download/v17.4.0/topgrade_17.4.0_amd64.deb'
+hugo: 'https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_0.161.1_linux-amd64.deb'
+
 ssh_port: 22
 
 user_name: x
