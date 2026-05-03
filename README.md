@@ -1,10 +1,10 @@
 # debian-desktop-playbook
-A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE** (**Xfce** is also available) and many additional packages.
+A personal **Ansible** **Playbook** to deploy/configure a **Debian** desktop system to my needs with **KDE**.
 
 Adapted for **Debian 13** (**Trixie**)
 
 ## Features:
-- **KDE** desktop by default. **Xfce** and **Gnome** (**Task**) available.
+- **KDE** desktop by default
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
 - Installs and configures **sudo** and **doas** (**opendoas**)
 - **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
@@ -83,8 +83,6 @@ fstrim
 fail2ban
 xorg
 kde
-xfce
-gnome
 packages
 fontconfig
 fonts

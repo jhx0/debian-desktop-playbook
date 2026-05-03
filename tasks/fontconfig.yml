@@ -54,11 +54,3 @@
     question: fontconfig-config/subpixel_rendering
     value: Always
     vtype: select
-
-- name: Copy over emoji config (global)
-  ansible.builtin.copy:
-    src: files/fontconfig/68-color-emoji.conf
-    dest: /etc/fonts/conf.d/68-color-emoji.conf
-    owner: root
-    group: root
-    mode: '0644'
