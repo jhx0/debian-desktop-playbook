@@ -1,0 +1,3 @@
+- name: Installing VSCode
+  apt:
+    deb: "{{ vscode }}"

@@ -8,7 +8,7 @@ Adapted for **Debian 13** (**Trixie**)
 - Many additional packages from the official repos (**LibreOffice**, **Firefox-ESR**, etc.)
 - Installs and configures **sudo** and **doas** (**opendoas**)
 - **Flatpaks**: **Discord**, **Element**, **Signal**, **Raspberry Pi Imager**, **JDownloader**
-- External applications available: **VSCodium**, **Brave**
+- External applications available: **VSCodium**, **Brave**, **VSCode**
 - Gaming: **Steam**, **Wine**, **Minecraft**  and retro gaming emulators (**Mupen64Plus**, **Mednafen/Mednaffe**)
 - Targets **Intel**/**AMD** systems (CPU/GPU)
 - Installs **Docker**, **Podman**
@@ -94,6 +94,7 @@ docker
 podman
 lxc
 topgrade
+vscode
 virtualbox
 distrobox
 flatpak (Multiple Flatpaks installed)
